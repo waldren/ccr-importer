@@ -35,6 +35,7 @@ public class MeasureReader {
         ArrayList<Measure> m = new ArrayList<Measure>();
         JsonNode root = om.readValue(json, JsonNode.class);
         qm.setId(root.path("id").getTextValue());
+        LOG.log(Level.INFO, "Extracting Quality Measure: "+qm.getId());
         qm.setName(root.path("name").getTextValue());
         qm.setDescription(root.path("description").getTextValue());
         qm.setCategory(root.path("category").getTextValue());
@@ -100,7 +101,7 @@ public class MeasureReader {
     protected static Measure.CAT extractCategories(JsonNode subMeasure) throws Exception {
         JsonNode cats = subMeasure.path("standard_category");
 
-        // If there is no standard_category node retun unknown category
+        // If there is no standard_category node return unknown category
         if (cats.isMissingNode()) {
             LOG.warning("Missing a Standard Category");
             return Measure.CAT.Unknown;

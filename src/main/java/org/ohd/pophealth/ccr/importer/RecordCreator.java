@@ -41,6 +41,7 @@ import org.ohd.pophealth.json.clinicalmodel.Medication;
 import org.ohd.pophealth.json.clinicalmodel.Test;
 import org.ohd.pophealth.json.measuremodel.CodedValue;
 import org.ohd.pophealth.json.clinicalmodel.Condition;
+import org.ohd.pophealth.json.clinicalmodel.Device;
 import org.ohd.pophealth.json.clinicalmodel.Encounter;
 import org.ohd.pophealth.json.clinicalmodel.Goal;
 import org.ohd.pophealth.json.clinicalmodel.Order;
@@ -113,6 +114,7 @@ public class RecordCreator {
         r.setMedications(createMedications());
         r.setAllergies(createAllergies());
         r.setOrders(createOrders());
+        r.setDevices(createDevices());
 
         if (LOG.isLoggable(Level.FINEST)) {
             try {
@@ -499,6 +501,58 @@ public class RecordCreator {
             Logger.getLogger(RecordCreator.class.getName()).log(Level.WARNING, ex.getMessage());
         }
         return m;
+    }
+    
+    private ArrayList<Device> createDevices(){
+    	ArrayList<Device> devices = new ArrayList<Device>();
+    	if (ccr.getBody().getMedicalEquipment() != null){
+    		for (StructuredProductType spt : ccr.getBody().getMedicalEquipment().getEquipment()){
+    			devices.add(createDevice(spt));
+    		}
+    	}
+    	return devices;
+    }
+    
+    private Device createDevice(StructuredProductType equip){
+    	Device d = new Device(equip.getCCRDataObjectID());
+    	 // Set the description of the MedicalEquipment by adding the general CCR
+        // description and the codedvalues of the product name and brand name
+        if (equip.getDescription() != null) {
+            d.addDescription(convertToCodedValue(equip.getDescription()));
+        }
+        // A CCR MedicalEquipment may have multiple products
+        for (Product pt : equip.getProduct()) {
+            d.addDescription(convertToCodedValue(pt.getProductName()));
+            if (pt.getBrandName() != null) {
+                d.addDescription(convertToCodedValue(pt.getBrandName()));
+            }
+        }
+        // Set the type
+        if (equip.getType() != null) {
+            d.setType(convertToCodedValue(equip.getType()));
+        }
+        // Set the status
+        if (equip.getStatus() != null) {
+            d.setStatus(convertToCodedValue(equip.getStatus()));
+        }
+        // Set the dates associated with the MedicalEquipment
+        try {
+            String startDate = findDate(v.getTermSet("onset"), equip.getDateTime());
+            if (startDate != null) {
+                d.setStarted(convertISO8601toSecfromEpoch(startDate));
+            }
+        } catch (NoValidDateFound ex) {
+            Logger.getLogger(RecordCreator.class.getName()).log(Level.WARNING, ex.getMessage());
+        }
+        try {
+            String stopDate = findDate(v.getTermSet("ended"), equip.getDateTime());
+            if (stopDate != null) {
+                d.setStopped(convertISO8601toSecfromEpoch(stopDate));
+            }
+        } catch (NoValidDateFound ex) {
+            Logger.getLogger(RecordCreator.class.getName()).log(Level.WARNING, ex.getMessage());
+        }
+        return d;
     }
 
     /*

@@ -25,6 +25,7 @@ public class Record {
     private ArrayList<Procedure> procedures;
     private ArrayList<Order> orders;
     private ArrayList<Actor> actors;
+    private ArrayList<Device> devices;
 
     public ArrayList<Actor> getActors() {
         return actors;
@@ -90,7 +91,15 @@ public class Record {
         this.orders = orders;
     }
 
-    public Patient getPatient() {
+    public ArrayList<Device> getDevices() {
+		return devices;
+	}
+
+	public void setDevices(ArrayList<Device> devices) {
+		this.devices = devices;
+	}
+
+	public Patient getPatient() {
         return patient;
     }
 

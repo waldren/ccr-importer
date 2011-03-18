@@ -57,6 +57,10 @@ public class CCRValidator {
         }
         return "";
     }
+    
+    public boolean hasErrors(){
+    	return eHandler.hasErrors();
+    }
 
     public ContinuityOfCareRecord validateCCR(String ccrXML) {
         try {
@@ -112,6 +116,7 @@ public class CCRValidator {
 
     private void setupValidator() {
         try {
+        	Logger.getLogger(this.getClass().getName()).log(Level.ALL, "Setting up validator");
             SchemaFactory sf = SchemaFactory.newInstance(javax.xml.XMLConstants.W3C_XML_SCHEMA_NS_URI);
             URL xsdURL = this.getClass().getClassLoader().getResource(config.getCcrXSDLocation());
             File xsdFile = null;

@@ -1,0 +1,16 @@
+Measure 0001 - Asthma
+asthma_symptom_assessment_tool
+	- The only code for assessment represents Peakflow diary
+		- This is likely not to be captured.
+		-  Other SNOMED codes to consider
+			- 29893006, 401004000, 366156001
+	- Risk category assessment
+		- Not sure the definition
+
+Measure 0002 - Pharyngitis
+miscellaneous_antibiotics
+	- This is not going to be used in a patient's record
+
+Measure 0056 - Diabetes Foot Exam
+medications_indicative_of_diabetes_medication_active
+	- No codes

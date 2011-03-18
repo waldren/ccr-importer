@@ -19,7 +19,7 @@ public class Measure {
 
     public static enum TYPE { DateItem, ValueDateItem, DateRangeItem , BooleanItem};
     public static enum CAT { Condition, Result, Characteristic, Encounter, 
-            VitalSign, Medication, Immunization, PhysicalExam, Procedure, Allergy,
+            VitalSign, Medication, Immunization, Device, PhysicalExam, Procedure, Allergy,
             Communication, Order, Goal, NegativeRationale, Unknown};
     private static final HashMap<String, Measure.CAT> catMap;
 
@@ -27,9 +27,12 @@ public class Measure {
         catMap = new HashMap<String, Measure.CAT>();
         catMap.put("procedure", CAT.Procedure);
         catMap.put("substance_allergy", CAT.Allergy);
+        catMap.put("substance", CAT.Allergy);
         catMap.put("medication_allergy", CAT.Allergy);
         catMap.put("diagnosis_condition_problem", CAT.Condition);
+        catMap.put("symptom", CAT.Condition);
         catMap.put("laboratory_test", CAT.Result);
+        catMap.put("diagnostic_study", CAT.Result);
         catMap.put("result", CAT.Result);
         catMap.put("encounter", CAT.Encounter);
         catMap.put("vital_sign", CAT.VitalSign);
@@ -37,8 +40,10 @@ public class Measure {
         catMap.put("medication_administered", CAT.Medication);
         catMap.put("immunization", CAT.Immunization);
         catMap.put("physical_exam", CAT.PhysicalExam);
+        catMap.put("device", CAT.Device);
         catMap.put("patient_characteristic", CAT.Characteristic);
         catMap.put("characteristic", CAT.Characteristic);
+        catMap.put("individual_characteristic", CAT.Characteristic);
         catMap.put("communication", CAT.Communication);
         catMap.put("care_goal", CAT.Goal);
         catMap.put("negation_rationale", CAT.NegativeRationale);

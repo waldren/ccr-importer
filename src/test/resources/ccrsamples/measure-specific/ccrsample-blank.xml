@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : ccrsample-blank.xml
+    Created on : January 20, 2011, 9:24 AM
+    Author     : ohdohd
+    Description:
+        Purpose of the document follows.
+-->
+
+<ccr:ContinuityOfCareRecord  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+   xmlns:ccr='urn:astm-org:CCR'
+   xsi:schemaLocation='urn:astm-org:CCR ../CCRV1.xsd'>
+    <ccr:CCRDocumentObjectID>ccrsample-0000</ccr:CCRDocumentObjectID>
+    <ccr:Language>
+        <ccr:Text>English</ccr:Text>
+    </ccr:Language>
+    <ccr:Version>V1.0</ccr:Version>
+    <ccr:DateTime>
+        <ccr:ExactDateTime>2011-01-20T15:24:00.000Z</ccr:ExactDateTime>
+    </ccr:DateTime>
+    <ccr:Patient>
+        <ccr:ActorID>pt-0013</ccr:ActorID>
+    </ccr:Patient>
+    <ccr:From>
+        <ccr:ActorLink>
+            <ccr:ActorID>ohd</ccr:ActorID>
+        </ccr:ActorLink>
+    </ccr:From>
+    <ccr:Body>
+    </ccr:Body>
+    <ccr:Actors>
+        <ccr:Actor>
+            <ccr:ActorObjectID>pt-0013</ccr:ActorObjectID>
+            <ccr:Person>
+                <ccr:Name>
+                    <ccr:CurrentName>
+                        <ccr:Given>John</ccr:Given>
+                        <ccr:Family>Doe</ccr:Family>
+                    </ccr:CurrentName>
+                </ccr:Name>
+                <ccr:DateOfBirth>
+                    <ccr:ExactDateTime>1967-01-13T00:00:00.000Z</ccr:ExactDateTime>
+                </ccr:DateOfBirth>
+                <ccr:Gender>
+                    <ccr:Text>Male</ccr:Text>
+                    <ccr:Code>
+                        <ccr:Value>M</ccr:Value>
+                        <ccr:CodingSystem>HL7</ccr:CodingSystem>
+                        <ccr:Version>3.0</ccr:Version>
+                    </ccr:Code>
+                </ccr:Gender>
+            </ccr:Person>
+            <ccr:Source>
+                <ccr:Actor>
+                    <ccr:ActorID>ohd</ccr:ActorID>
+                </ccr:Actor>
+            </ccr:Source>
+        </ccr:Actor>
+        <ccr:Actor>
+            <ccr:ActorObjectID>ohd</ccr:ActorObjectID>
+            <ccr:Source>
+                <ccr:Actor>
+                    <ccr:ActorID>ohd</ccr:ActorID>
+                </ccr:Actor>
+            </ccr:Source>
+        </ccr:Actor>
+        <ccr:Actor>
+            <ccr:ActorObjectID>dr-001</ccr:ActorObjectID>
+            <ccr:Source>
+                <ccr:Actor>
+                    <ccr:ActorID>ohd</ccr:ActorID>
+                </ccr:Actor>
+            </ccr:Source>
+        </ccr:Actor>
+    </ccr:Actors>
+
+</ccr:ContinuityOfCareRecord>

@@ -20,6 +20,7 @@ import org.ohd.pophealth.json.measuremodel.QualityMeasure;
 import org.ohd.pophealth.json.clinicalmodel.Record;
 
 import org.ohd.pophealth.json.clinicalmodel.Condition;
+import org.ohd.pophealth.json.clinicalmodel.Device;
 import org.ohd.pophealth.json.clinicalmodel.Encounter;
 import org.ohd.pophealth.json.clinicalmodel.Goal;
 import org.ohd.pophealth.json.clinicalmodel.Medication;
@@ -145,6 +146,9 @@ public class QualityMeasureEvaluator {
                 case Goal:
                     evaluateGoal(m, items);
                     break;
+                case Device:
+                	evaluateDevice(m, items);
+                	break;
                 default:
                     LOG.log(Level.WARNING, "Found Unknown or Unsupported Category Type [{0}]", m.getCategory());
             }
@@ -428,6 +432,58 @@ public class QualityMeasureEvaluator {
         return match;
     }
 
+    private boolean evaluateDevice(Measure m, LinkedHashMap<String, Item> items) {
+        boolean match = false;
+        switch (m.getItemType()) {
+            case DateItem:  // Assumption: DateItem is always the start date of the medication
+                DateItem di = new DateItem();
+                LinkedList<Long> dL = new LinkedList<Long>();
+                for (Device dev : r.getDevices()) {
+                    if (codeMatch(m.getCodes(), dev.getDescription())) {
+                        // Assumption: A device may have been stopped or not
+                        dL.add(new Long(dev.getStarted()));
+                        match = true;
+                        LOG.log(Level.FINEST, "Match Found for {0} in device {1}", new Object[]{m.getDescription(), dev.getId()});
+                    }
+                }
+                if (!dL.isEmpty()) {
+                    di.setDate((Long[]) dL.toArray(new Long[0]));
+                }
+                items.put(m.getName(), di);
+                break;
+            case DateRangeItem:
+                DateRangeItem dri = new DateRangeItem();
+                for (Device dev : r.getDevices()) {
+                    if (codeMatch(m.getCodes(), dev.getDescription())) {
+                        dri.addRange(dev.getStarted(), dev.getStopped());
+                        match = true;
+                        LOG.log(Level.FINEST, "Match Found for {0} in device {1}", new Object[]{m.getDescription(), dev.getId()});
+                    }
+                }
+                items.put(m.getName(), dri);
+                break;
+            case ValueDateItem:
+                // TODO Will there be any valuedate items for devices?
+                LOG.log(Level.WARNING, "Processing measure [{0}] and ValueDateItem is not valid for Devices", m.getName());
+                break;
+            case BooleanItem:
+                BooleanItem bi = new BooleanItem();
+                for (Device dev : r.getDevices()) {
+                    if (codeMatch(m.getCodes(), dev.getDescription())) {
+                        bi.setValue(true);
+                        match = true;
+                        LOG.log(Level.FINEST, "Match Found for {0} in device {1}", new Object[]{m.getDescription(), dev.getId()});
+                    }
+                }
+                // If no condition found BooleanItem.isValue defaults to false
+                items.put(m.getName(), bi);
+                break;
+            default:
+                LOG.log(Level.WARNING, "Non supported ITEM TYPE [{0}]", m.getItemType());
+        }
+        return match;
+    }
+    
     private boolean evaluateAllergy(Measure m, LinkedHashMap<String, Item> items) {
         boolean match = false;
         switch (m.getItemType()) {

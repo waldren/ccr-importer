@@ -35,7 +35,6 @@ public class Evaluator {
     private RecordCreator rc;
     private ArrayList<QualityMeasure> qMeasures;
     private PreProcessor pp;
-    private Configuration config;
     boolean preProcess_inferCodes = false;
     boolean preProcess_fixTobacco = false;
     boolean preProcess_fixEncounters = false;
@@ -150,7 +149,7 @@ public class Evaluator {
             return result;
         }else {
             LOG.info("INVALID CCR returning last errors");
-            return lastErrors;
+            return validator.getLastErrors(true);
         }
     }
 
@@ -169,14 +168,12 @@ public class Evaluator {
      * Adda a quality measure in JSON format to the list of quality measures to
      * use in the evaluations.
      *
-     * @param qMeasureJSON  JSON String representing the qualiy measures
+     * @param qMeasureJSON  JSON String representing the quality measures
      * @throws Exception  Exception thrown if problem parsing JSON string
      */
     public void addMeasure(String qMeasureJSON) throws Exception{
         addMeasure(MeasureReader.extractQualityMeasure(qMeasureJSON));
     }
-
-    String lastErrors = "";  // Simple String to hold the errors for the JAXB validation
 
     public ContinuityOfCareRecord preProcess(ContinuityOfCareRecord ccr){
         ccr = pp.preProcess(ccr);
