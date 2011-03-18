@@ -6,9 +6,13 @@ This repository provides a set of tools for importing ASTM CCR's into popHealth
 Building
 --------
 
-This project is built with [Apache Ant](http://ant.apache.org/) and dependencies are managed with [Apache Ivy](http://ant.apache.org/ivy/). Running
+This Project is built with Maven.  	
 
-    > ant compile
+	You need to add the LVG dist jar to your local maven repository
+	Replace ${lvg-install} with the path to where you saved lvg jar
+	mvn install:install-file -Dfile=${lvg-install}/lvg2011dist.jar -DgroupId=gov.nih.nlm -DartifactId=lvg.dist -Dversion=2011 -Dpackaging=jar
+
+ > mvn package
 
 NLM LVG
 -------
