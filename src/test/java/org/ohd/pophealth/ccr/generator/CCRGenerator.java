@@ -5,6 +5,8 @@ import java.util.Random;
 
 import org.astm.ccr.ActorReferenceType;
 import org.astm.ccr.ActorType;
+import org.astm.ccr.Agent;
+import org.astm.ccr.AlertType;
 import org.astm.ccr.CodeType;
 import org.astm.ccr.CodedDescriptionType;
 import org.astm.ccr.ContinuityOfCareRecord;
@@ -97,6 +99,30 @@ public class CCRGenerator {
 		pt.getDateTime().add(generateDate());
 		pt.getSource().add(generateSource());
 		return pt;
+	}
+	
+	public AlertType generateAllergy(String id, String code, String codesystem){
+		AlertType at = generateBaseAlert(id);
+		at.setDescription(generateDescription(code, codesystem));
+		return at;
+	}
+	
+	public AlertType generateAllergy(String id, StructuredProductType spt){
+		AlertType at = generateBaseAlert(id);
+		Agent ag = new Agent();
+		Agent.Products ps = new Agent.Products();
+		ps.getProduct().add(spt);
+		ag.setProducts(ps);
+		at.getAgent().add(ag);
+		return at;
+	}
+	
+	private AlertType generateBaseAlert(String id){
+		AlertType at = new AlertType();
+		at.setCCRDataObjectID(id);
+		at.getDateTime().add(generateDate());
+		at.getSource().add(generateSource());
+		return at;
 	}
 	
 	public StructuredProductType generateMedication(String idPrefix, String id, String code, String codesystem){

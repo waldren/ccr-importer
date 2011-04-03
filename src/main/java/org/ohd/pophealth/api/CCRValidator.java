@@ -68,6 +68,7 @@ public class CCRValidator {
             // First see if it a valid XML instance
             if (ccrXML == null || "".equals(ccrXML)){
                 Logger.getLogger(Evaluator.class.getName()).log(Level.WARNING, "CCR XML String Empty or NULL");
+                eHandler.assertError("XML string is empty or null", 0, 0);
                 return null;
             }
             StreamSource src = new StreamSource(new StringReader(ccrXML));

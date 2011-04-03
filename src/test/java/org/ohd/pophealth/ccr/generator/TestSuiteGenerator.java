@@ -9,6 +9,7 @@ import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import org.astm.ccr.AlertType;
 import org.astm.ccr.ContinuityOfCareRecord;
 import org.astm.ccr.ContinuityOfCareRecord.Body.Problems;
 import org.astm.ccr.EncounterType;
@@ -66,7 +67,7 @@ public class TestSuiteGenerator {
 		ccr.setCCRDocumentObjectID("ccrsample-" + qm.getId() + "-"
 				+ System.currentTimeMillis());
 		for (Measure m : qm.getMeasures()) {
-			//log.log(Level.INFO, "Processing Measure: "+m.getName());
+			log.log(Level.INFO, "Processing Measure: "+m.getName());
 			GenData gd = getGenerationData(m);
 			switch (m.getCategory()) {
 			case Condition:
@@ -78,6 +79,12 @@ public class TestSuiteGenerator {
 				ccr.getBody().getProblems().getProblem().add(pt);
 				break;
 			case Characteristic:
+				if (ccr.getBody().getProblems() == null) {
+					ccr.getBody().setProblems(new Problems());
+				}
+				ProblemType cr = gen.generateProblem(gd.id, gd.code,
+						gd.codesystem);
+				ccr.getBody().getProblems().getProblem().add(cr);
 				break;
 			case Encounter:
 				if (ccr.getBody().getEncounters() == null){
@@ -87,8 +94,14 @@ public class TestSuiteGenerator {
 				ccr.getBody().getEncounters().getEncounter().add(et);
 				break;
 			case Result:
+//				if (ccr.getBody().getResults() == null){
+//					ccr.getBody().setResults(new ContinuityOfCareRecord.Body.Results());
+//				}
 				break;
 			case VitalSign:
+//				if (ccr.getBody().getVitalSigns() == null){
+//					ccr.getBody().setVitalSigns(new ContinuityOfCareRecord.Body.VitalSigns());
+//				}
 				break;
 			case Medication:
 				if (ccr.getBody().getMedications() == null) {
@@ -109,6 +122,12 @@ public class TestSuiteGenerator {
 				ccr.getBody().getMedications().getMedication().add(sptIm);
 				break;
 			case PhysicalExam:
+				// Create them all as Procedures
+				if (ccr.getBody().getProcedures() == null){
+					ccr.getBody().setProcedures(new ContinuityOfCareRecord.Body.Procedures());
+				}
+				ProcedureType pe = gen.generateProcedure(gd.id, gd.code, gd.codesystem);
+				ccr.getBody().getProcedures().getProcedure().add(pe);
 				break;
 			case Communication:
 				if (ccr.getBody().getEncounters() == null){
@@ -118,6 +137,12 @@ public class TestSuiteGenerator {
 				ccr.getBody().getEncounters().getEncounter().add(etC);
 				break;
 			case Allergy:
+				if (ccr.getBody().getAlerts() == null){
+					ccr.getBody().setAlerts(new ContinuityOfCareRecord.Body.Alerts());
+				}
+				StructuredProductType spt = gen.generateMedication("med", gd.id+"-02", gd.code, gd.codesystem);
+				AlertType at = gen.generateAllergy(gd.id, spt);
+				ccr.getBody().getAlerts().getAlert().add(at);
 				break;
 			case Procedure:
 				if (ccr.getBody().getProcedures() == null){
@@ -141,6 +166,10 @@ public class TestSuiteGenerator {
 
 	private GenData getGenerationData(Measure m) {
 		String id = m.getName();
+		if (m.getCodes().isEmpty()){
+			// Some measures do not have a code - which is ridiculous
+			return new GenData(id, "none", "none");
+		}
 		// Grab first code add Random selection in future
 		String cs = m.getCodes().get(0).getCodingSystem();
 		String code = m.getCodes().get(0).getValues().get(0);
@@ -176,8 +205,8 @@ public class TestSuiteGenerator {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		String inputDir = "/Users/ohdohd/Documents/CodeRespository/pophealth/measures/tmp";
-		String outputDir = "/Users/ohdohd/Documents/CodeRespository/ccr-importer/src/test/resources/gen";
+		String inputDir = "/WindowsHD/OHD/popHealth/CleanCode/measures/tmp";
+		String outputDir = "/Users/swaldren/gitrepo/ccr-importer/src/test/resources/gen";
 		TestSuiteGenerator tsg = new TestSuiteGenerator(inputDir, outputDir);
 		tsg.generateTestCcrFiles();
 	}

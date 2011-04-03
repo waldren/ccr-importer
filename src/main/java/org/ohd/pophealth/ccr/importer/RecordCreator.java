@@ -269,7 +269,7 @@ public class RecordCreator {
                 try {
                     dateOnset = findDate(v.getTermSet("onset"), sht.getDateTime());
                 } catch (NoValidDateFound ex) {
-                    Logger.getLogger(RecordCreator.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(RecordCreator.class.getName()).log(Level.WARNING, ex.getLocalizedMessage());
                 }
                 if (dateOnset != null) {
                     c.setOnset(convertISO8601toSecfromEpoch(dateOnset));
@@ -279,7 +279,7 @@ public class RecordCreator {
                 try {
                     dateResolve = findDate(v.getTermSet("resolved"), sht.getDateTime());
                 } catch (NoValidDateFound ex) {
-                    Logger.getLogger(RecordCreator.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(RecordCreator.class.getName()).log(Level.WARNING, ex.getLocalizedMessage());
                 }
                 if (dateResolve != null) {
                     c.setResolution(convertISO8601toSecfromEpoch(dateResolve));

@@ -41,6 +41,14 @@ public class ValidatonErrorHandler implements ErrorHandler{
         e.setColumnNumber(ex.getColumnNumber());
         errors.add(e);
     }
+    
+    public void assertError(String message, int lineNumber, int columnNumber){
+    	Error e = new Error();
+    	e.setMessage(message);
+    	e.setLineNumber(lineNumber);
+    	e.setColumnNumber(columnNumber);
+    	errors.add(e);
+    }
 
     public ArrayList<Error> getErrors() {
         return errors;

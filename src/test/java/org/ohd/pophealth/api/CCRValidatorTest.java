@@ -49,7 +49,7 @@ public class CCRValidatorTest {
     @Test
     public void testValidateCCRValid() {
         try {
-            String ccrValid = Utility.convertStreamToString(this.getClass().getClassLoader().getResourceAsStream("./ccrsamples/generic/ccr-sample-0001.xml"));
+            String ccrValid = Utility.convertStreamToString(this.getClass().getClassLoader().getResourceAsStream("ccrsamples/generic/ccr-sample-0001.xml"));
             System.out.println("validateCCR");
             String ccrXML = ccrValid;
             ContinuityOfCareRecord result = instance.validateCCR(ccrXML);
@@ -67,7 +67,7 @@ public class CCRValidatorTest {
     @Test
     public void testValidateCCRInValid() {
         try {
-            String ccrInvalid = Utility.convertStreamToString(this.getClass().getClassLoader().getResourceAsStream("./ccrsamples/generic/ccr-sample-0004.xml"));
+            String ccrInvalid = Utility.convertStreamToString(this.getClass().getClassLoader().getResourceAsStream("ccrsamples/generic/ccr-sample-0004.xml"));
             System.out.println("validateCCR");
             String ccrXML = ccrInvalid;
             ContinuityOfCareRecord result = instance.validateCCR(ccrXML);

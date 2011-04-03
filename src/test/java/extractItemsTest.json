@@ -1,0 +1,288 @@
+{
+  "id": "0000",
+  "name": "A Test Measure",
+  "description": "Test measure for testing purposes.",
+  "category": "Test",
+  "steward": "AMA",
+  "parameters":
+  {
+    "effective_date":
+    {
+      "description": "Effective end date for measure",
+      "type": "number",
+      "format": "utc-sec"
+    }
+  },
+  "patient":
+  {
+    "birthdate":
+    {
+      "description": "Date of birth",
+      "critical": true,
+      "type": "number",
+      "format": "utc-sec",
+      "codes":
+      [
+        {
+          "set": "HL7",
+          "version": "3.0",
+          "values": ["00110"]
+        }
+      ]
+    }
+  },
+  "measure":
+  {
+    "DateItem":
+    {
+      "description": "Dates of Asthma Diagnosis",
+      "standard_category": "diagnosis_condition_problem",
+      "type": "array",
+      "items":
+      {
+        "type": "number",
+        "format": "utc-sec"
+      },
+      "codes":
+      [
+        {
+          "set": "SNOMED-CT",
+          "version": "07/2009",
+          "values": ["11641008",  "12428000",  "13151001",  "195949008", "195967001", "195977004", "195979001", "196013003", "225057002",
+                     "233672007", "233678006", "233679003", "233681001", "233683003", "233685005", "233688007", "266361008", "266364000",
+                     "281239006", "30352005",  "304527002", "31387002",  "370218001", "370219009", "370220003", "370221004", "389145006",
+                     "405944004", "407674008", "409663006", "423889005", "424199006", "424643009", "425969006", "426656000", "426979002",
+                     "427295004", "427354000", "427603009", "427679007", "442025000", "55570000",  "56968009",  "57546000",  "59327009",
+                     "59786004",  "63088003",  "67415000",  "85761009",  "91340006",  "92807009",  "93432008"]
+        },
+        {
+          "set": "ICD-9-CM",
+          "version": "2010",
+          "values": ["493.00", "493.01", "493.02", "493.10", "493.11", "493.12", "493.20", "493.21", "493.22", "493.81", "493.82",
+                     "493.90", "493.91", "493.92"]
+        },
+        {
+          "set": "ICD-10-CM",
+          "version": "2010",
+          "values": ["J45", "J45.22", "J45.32", "J45.42", "J45.52", "J45.90", "J45.901", "J45.902", "J45.990", "J45.991"]
+        }
+      ]
+    },
+    "ValueDateItem": {
+      "description": "BMI percentile",
+      "standard_concept_id": "bmi_percentile",
+      "standard_category": "physical_exam",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "description": "BMI percentile",
+            "type": "number"
+          },
+          "date": {
+            "description": "Date of BMI Measurement",
+            "type": "number",
+            "format": "utc-sec"
+          }
+        }
+      },
+      "codes": [
+        {
+          "set": "ICD-9-CM",
+          "version": "06/2009",
+          "standard_concept": "bmi_percentile",
+          "standard_concept_id": "N_c160",
+          "values": [
+            "V85.5",
+            "V85.51",
+            "V85.52",
+            "V85.53",
+            "V85.54"
+          ]
+        },
+        {
+          "set": "ICD-10-CM",
+          "version": "06/2009",
+          "standard_concept": "bmi_percentile",
+          "standard_concept_id": "N_c165",
+          "values": [
+            "Z68",
+            "Z68.1",
+            "Z68.5",
+            "Z68.51",
+            "Z68.52",
+            "Z68.53",
+            "Z68.54"
+          ]
+        },
+        {
+          "set": "SNOMED-CT",
+          "version": "07/2009",
+          "standard_concept": "bmi_percentile",
+          "standard_concept_id": "N_c166",
+          "values": [
+            "162860001",
+            "162861002",
+            "162862009",
+            "162863004",
+            "162864005",
+            "35425004",
+            "408512008",
+            "412768003",
+            "427090001",
+            "48499001",
+            "60621009",
+            "6497000"
+          ]
+        }
+      ]
+    },
+    "BooleanItem": {
+      "description": "Allergy to eggs",
+      "standard_category": "medication_allergy",
+      "type": "boolean",
+      "codes": [
+        {
+          "set": "SNOMED-CT",
+          "version": "07/2009",
+          "values": [
+            "1484830012",
+            "213020009",
+            "292098007",
+            "293104008",
+            "293112000",
+            "293113005",
+            "420113004",
+            "91930004"
+          ]
+        },
+        {
+          "set": "ICD-9-CM",
+          "version": "2010",
+          "values": [
+            "V15.03"
+          ]
+        }
+      ]
+    },
+    "DateRangeItem": {
+      "description": "Hepatitis A Diagnosis",
+      "standard_concept_id": "N_c531",
+      "standard_category": "diagnosis_condition_problem",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "start": {
+            "description": "Hepatitis A diagnosis date",
+            "type": "number",
+            "format": "utc-sec"
+          },
+          "end": {
+            "description": "Hepatitis A resolution date",
+            "type": "number",
+            "format": "utc-sec"
+          }
+        }
+      },
+      "codes": [
+        {
+          "set": "ICD-9-CM",
+          "version": "06/2009",
+          "standard_concept": "hepatitis_a_diagnosis",
+          "standard_concept_id": "N_c359",
+          "values": [
+            "070.0",
+            "070.1"
+          ]
+        },
+        {
+          "set": "ICD-10-CM",
+          "version": "06/2009",
+          "standard_concept": "hepatitis_a_diagnosis",
+          "standard_concept_id": "N_c360",
+          "values": [
+            "B15",
+            "B15.0",
+            "B15.9"
+          ]
+        },
+        {
+          "set": "SNOMED-CT",
+          "version": "Jul-09",
+          "standard_concept": "hepatitis_a_diagnosis",
+          "standard_concept_id": "N_c561",
+          "values": [
+            "111879004",
+            "16060001",
+            "186621007",
+            "18917003",
+            "206373002",
+            "25102003",
+            "40468003",
+            "424758008",
+            "43634002",
+            "79031007"
+          ]
+        }
+      ]
+    }
+  },
+  "population":
+  {
+    "and":
+    [
+      {
+        "category": "Patient Characteristic",
+        "title": "Age between 5 and 40"
+      },
+      {
+        "category": "Diagnosis",
+        "title": "Active Asthma"
+      },
+      {
+        "category": "Encounter",
+        "title": ">= 2 Counts of Encounter Office with Outpatient Consult"
+      }
+    ]
+  },
+  "denominator": {},
+  "numerator":
+  {
+    "or":
+    [
+      {
+        "and":
+        [
+          {
+            "category": "Symptom Assessed",
+            "title": "Asthma Daytime Symptoms"
+          },
+          {
+            "category": "Symptom Assessed",
+            "title": "Asthma Nighttime Symptoms"
+          }
+        ]
+      },
+      {
+        "and":
+        [
+          {
+            "category": "Symptom Assessed",
+            "title": "Asthma Daytime Symptoms Quantified"
+          },
+          {
+            "category": "Symptom Assessed",
+            "title": "Asthma Nighttime Symptoms Quantified"
+          }
+        ]
+      },
+      {
+        "category": "Risk Category/Assessment",
+        "title": "Asthma Symptom Assessment Tool"
+      }
+    ]
+  },
+  "exclusions": {}
+}
