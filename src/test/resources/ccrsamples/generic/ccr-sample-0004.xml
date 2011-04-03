@@ -1,0 +1,2735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContinuityOfCareRecord xsi:schemaLocation="urn:astm-org:CCR CCR_20051109.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="urn:astm-org:CCR" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CCRDocumentObjectID>{87599CA9-B28D-4108-9C4B-DA9E08958A9A}</CCRDocumentObjectID>
+  <Language>
+    <Text>English</Text>
+    <Code>
+      <Value>en</Value>
+      <CodingSystem>ISO-639-1</CodingSystem>
+    </Code>
+  </Language>
+  <Version>V1.0</Version>
+  <DateTime>
+    <ExactDateTime>2009-07-15T15:01:32.199+12:00</ExactDateTime>
+  </DateTime>
+  <Patient>
+    <ActorID>Andrew_Aperson</ActorID>
+  </Patient>
+  <From>
+    <ActorLink>
+      <ActorID>The Medical Practice</ActorID>
+      <ActorRole>
+        <Text>Healthcare Facility</Text>
+      </ActorRole>
+    </ActorLink>
+  </From>
+  <Body>
+    <AdvanceDirectives>
+      <AdvanceDirective>
+        <CCRDataObjectID>84342380-7560-4E13-A45E-61AF7D813B0A</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Start date</Text>
+          </Type>
+          <ExactDateTime>2009-02-12</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Life support</Text>
+        </Type>
+        <Description>
+          <Text>No code</Text>
+        </Description>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </AdvanceDirective>
+    </AdvanceDirectives>
+    <Problems>
+      <Problem>
+        <CCRDataObjectID>C79F4B30-3E79-4DED-AB3E-70045AF717B7</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Start date</Text>
+          </Type>
+          <ExactDateTime>2009-04-21</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Diagnosis</Text>
+        </Type>
+        <Description>
+          <Text>Asthma</Text>
+          <Code>
+            <Value>493.90</Value>
+            <CodingSystem>ICD-9CM</CodingSystem>
+          </Code>
+        </Description>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </Problem>
+      <Problem>
+        <CCRDataObjectID>A0994C02-1A7A-422D-9F90-04520004B0A3</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Start date</Text>
+          </Type>
+          <ExactDateTime>2009-04-21</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Diagnosis</Text>
+        </Type>
+        <Description>
+          <Text>Peptic ulcer disease</Text>
+          <Code>
+            <Value>533.9</Value>
+            <CodingSystem>ICD-9CM</CodingSystem>
+          </Code>
+        </Description>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </Problem>
+      <Problem>
+        <CCRDataObjectID>3797122D-60A2-4AE6-B21A-F391C730D10A</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Start date</Text>
+          </Type>
+          <ExactDateTime>2009-02-13</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Diagnosis</Text>
+        </Type>
+        <Description>
+          <Text>Pharyngitis, acute</Text>
+          <Code>
+            <Value>462</Value>
+            <CodingSystem>ICD-9CM</CodingSystem>
+          </Code>
+        </Description>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </Problem>
+      <Problem>
+        <CCRDataObjectID>64F754F5-5476-4650-9D0A-CCF76EDD1EDE</CCRDataObjectID>
+        <Type>
+          <Text>Diagnosis</Text>
+        </Type>
+        <Description>
+          <Text>Rheumatoid arthritis</Text>
+          <Code>
+            <Value>714.0</Value>
+            <CodingSystem>ICD-9CM</CodingSystem>
+          </Code>
+        </Description>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </Problem>
+      <Problem>
+        <CCRDataObjectID>CCABAE78-5D52-481E-8C81-B6FD248227A6</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Date reported</Text>
+          </Type>
+          <ExactDateTime>2009-05-07</ExactDateTime>
+        </DateTime>
+        <DateTime>
+          <Type>
+            <Text>Start date</Text>
+          </Type>
+          <ExactDateTime>2009-05-07</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Problem</Text>
+        </Type>
+        <Description>
+          <Text>Earache - </Text>
+          <Code>
+            <Value>388.70</Value>
+            <CodingSystem>ICD-9CM</CodingSystem>
+          </Code>
+        </Description>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </Problem>
+      <Problem>
+        <CCRDataObjectID>F860E7E1-EF99-4296-B14A-CC24BD156F12</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Date reported</Text>
+          </Type>
+          <ExactDateTime>2009-05-07</ExactDateTime>
+        </DateTime>
+        <DateTime>
+          <Type>
+            <Text>Start date</Text>
+          </Type>
+          <ExactDateTime>2009-05-13</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Problem</Text>
+        </Type>
+        <Description>
+          <Text>Elecs, urea, creatinine, abnormal - </Text>
+        </Description>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </Problem>
+      <Problem>
+        <CCRDataObjectID>02D5D777-94EE-4436-B3D2-114867758031</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Date reported</Text>
+          </Type>
+          <ExactDateTime>2009-05-07</ExactDateTime>
+        </DateTime>
+        <DateTime>
+          <Type>
+            <Text>Start date</Text>
+          </Type>
+          <ExactDateTime>2009-05-13</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Problem</Text>
+        </Type>
+        <Description>
+          <Text>Headache - </Text>
+          <Code>
+            <Value>784.0</Value>
+            <CodingSystem>ICD-9CM</CodingSystem>
+          </Code>
+        </Description>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </Problem>
+      <Problem>
+        <CCRDataObjectID>439781A3-F845-4EFF-91B6-EA6CF96A2924</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Date reported</Text>
+          </Type>
+          <ExactDateTime>2009-05-07</ExactDateTime>
+        </DateTime>
+        <DateTime>
+          <Type>
+            <Text>Start date</Text>
+          </Type>
+          <ExactDateTime>2009-05-12</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Problem</Text>
+        </Type>
+        <Description>
+          <Text>No proximal muscle weakness - </Text>
+        </Description>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </Problem>
+      <Problem>
+        <CCRDataObjectID>450C9958-DCFA-4ACE-8D2A-DED90D121E10</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Date reported</Text>
+          </Type>
+          <ExactDateTime>2009-05-07</ExactDateTime>
+        </DateTime>
+        <DateTime>
+          <Type>
+            <Text>Start date</Text>
+          </Type>
+          <ExactDateTime>2009-05-12</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Problem</Text>
+        </Type>
+        <Description>
+          <Text>No swelling of calf - </Text>
+        </Description>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </Problem>
+      <Problem>
+        <CCRDataObjectID>D0FC780C-44F1-4BA5-80D1-005FAD298F74</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Date reported</Text>
+          </Type>
+          <ExactDateTime>2009-04-21</ExactDateTime>
+        </DateTime>
+        <DateTime>
+          <Type>
+            <Text>Start date</Text>
+          </Type>
+          <ExactDateTime>2009-04-21</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Problem</Text>
+        </Type>
+        <Description>
+          <Text>Peptic ulcer disease - </Text>
+          <Code>
+            <Value>533.9</Value>
+            <CodingSystem>ICD-9CM</CodingSystem>
+          </Code>
+        </Description>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </Problem>
+      <Problem>
+        <CCRDataObjectID>0E72A528-647F-40FD-AC95-22F5B3691C57</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Date reported</Text>
+          </Type>
+          <ExactDateTime>2009-02-13</ExactDateTime>
+        </DateTime>
+        <DateTime>
+          <Type>
+            <Text>Start date</Text>
+          </Type>
+          <ExactDateTime>2009-02-13</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Problem</Text>
+        </Type>
+        <Description>
+          <Text>Sore throat - </Text>
+        </Description>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </Problem>
+    </Problems>
+    <FamilyHistory>
+      <FamilyProblemHistory>
+        <CCRDataObjectID>{204DFD9E-EC82-4914-BA94-E6803775C45F}</CCRDataObjectID>
+        <Problem>
+          <Description>
+            <Text>Family history of diabetes mellitus</Text>
+          </Description>
+        </Problem>
+        <FamilyMember>
+          <ActorRole>
+            <Text>Father</Text>
+          </ActorRole>
+        </FamilyMember>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </FamilyProblemHistory>
+    </FamilyHistory>
+    <SocialHistory>
+      <SocialHistoryElement>
+        <CCRDataObjectID>{36AC0389-6868-42C1-BB54-9785555A4837}</CCRDataObjectID>
+        <Type>
+          <Text>Tobacco use</Text>
+        </Type>
+        <Description>
+          <Text>Never smoked</Text>
+        </Description>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </SocialHistoryElement>
+      <SocialHistoryElement>
+        <CCRDataObjectID>{BB0BBDC9-C184-40A9-B83D-728B1B005AE3}</CCRDataObjectID>
+        <Type>
+          <Text>Alcohol use</Text>
+        </Type>
+        <Description>
+          <Text>Alcohol occasionally</Text>
+        </Description>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </SocialHistoryElement>
+      <SocialHistoryElement>
+        <CCRDataObjectID>{E6E54B53-5D0D-4094-B22F-B4650B9AD367}</CCRDataObjectID>
+        <Type>
+          <Text>Marriage status</Text>
+        </Type>
+        <Description>
+          <Text>Married</Text>
+        </Description>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </SocialHistoryElement>
+      <SocialHistoryElement>
+        <CCRDataObjectID>{C03618B3-2A7E-47AF-8A3A-1FFEAEA0C110}</CCRDataObjectID>
+        <Type>
+          <Text>Language</Text>
+        </Type>
+        <Description>
+          <Text>English</Text>
+        </Description>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </SocialHistoryElement>
+    </SocialHistory>
+    <Alerts>
+      <Alert>
+        <CCRDataObjectID>84CD607A-BA44-4525-B660-6796F284FB34</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Start date</Text>
+          </Type>
+          <ExactDateTime>2009-04-18</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Drug allergy</Text>
+        </Type>
+        <Description>
+          <Text>amlodipine</Text>
+        </Description>
+        <Status>
+          <Text>Confirmed</Text>
+        </Status>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+        <Agent>
+          <Products>
+            <Product>
+              <CCRDataObjectID>{7E614A24-0B45-41FD-A3A5-F1EAFD9A2033}</CCRDataObjectID>
+              <Product>
+                <ProductName>
+                  <Text>amlodipine</Text>
+                </ProductName>
+              </Product>
+            </Product>
+          </Products>
+        </Agent>
+      </Alert>
+      <Alert>
+        <CCRDataObjectID>700AFE21-C252-4BFF-820F-6467937A21E6</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Start date</Text>
+          </Type>
+          <ExactDateTime>2009-04-14</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Bite allergy</Text>
+        </Type>
+        <Description>
+          <Text>Bee sting</Text>
+        </Description>
+        <Status>
+          <Text>Confirmed</Text>
+        </Status>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </Alert>
+      <Alert>
+        <CCRDataObjectID>0D16D4E9-2E23-4D07-9F2E-DCFECACE599A</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Start date</Text>
+          </Type>
+          <ExactDateTime>2009-04-13</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Drug allergy</Text>
+        </Type>
+        <Description>
+          <Text>macrolide antibiotics</Text>
+        </Description>
+        <Status>
+          <Text>Confirmed</Text>
+        </Status>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+        <Agent>
+          <Products>
+            <Product>
+              <CCRDataObjectID>{D837863D-A4C8-4031-BA00-B49F3FAF211A}</CCRDataObjectID>
+              <Description>
+                <Text>macrolide antibiotics</Text>
+              </Description>
+            </Product>
+          </Products>
+        </Agent>
+      </Alert>
+    </Alerts>
+    <Immunizations>
+      <Immunization>
+        <CCRDataObjectID>F4212A58-A267-49F5-B98D-3F854E934337</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Date given</Text>
+          </Type>
+          <ExactDateTime>2009-04-24</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Immunization</Text>
+        </Type>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+        <Product>
+          <ProductName>
+            <Text>Influenza, trivalent inactivated (TIV)</Text>
+          </ProductName>
+          <BrandName>
+            <Text>influenza virus vaccine, inactivated - suspension</Text>
+          </BrandName>
+        </Product>
+      </Immunization>
+      <Immunization>
+        <CCRDataObjectID>01315650-AD40-44A0-8893-9041D8A132DD</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Date given</Text>
+          </Type>
+          <ExactDateTime>2009-04-23</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Immunization</Text>
+        </Type>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+        <Product>
+          <ProductName>
+            <Text>Tetanus Toxoid Adsorbed</Text>
+          </ProductName>
+          <BrandName>
+            <Text>Tetanus Toxoid Adsorbed 5 units/0.5 mL suspension</Text>
+          </BrandName>
+        </Product>
+      </Immunization>
+    </Immunizations>
+    <VitalSigns/>
+    <Results>
+      <Result>
+        <CCRDataObjectID>B812EFEA-1D61-4095-8A86-243D6FA94C94</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Date ordered</Text>
+          </Type>
+          <ExactDateTime>2009-04-12T00:00:00.000+12:00</ExactDateTime>
+        </DateTime>
+        <DateTime>
+          <Type>
+            <Text>Date reported</Text>
+          </Type>
+          <ExactDateTime>2009-04-12</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Test</Text>
+        </Type>
+        <Description>
+          <Text>Elecs, urea, creatinine</Text>
+        </Description>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+        <Test>
+          <CCRDataObjectID>80D4B8F6-BF4A-46AA-863F-14F4F098C391</CCRDataObjectID>
+          <DateTime>
+            <Type>
+              <Text>Date test ordered</Text>
+            </Type>
+            <ExactDateTime>2009-04-12T00:00:00.000+12:00</ExactDateTime>
+          </DateTime>
+          <Type>
+            <Text>Result</Text>
+          </Type>
+          <Description>
+            <Text>Chloride, serum</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>The Medical Practice</ActorID>
+              <ActorRole>
+                <Text>Healthcare facility</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Test>
+        <Test>
+          <CCRDataObjectID>7139EC67-C16F-49BB-9D68-CD3EEF5D4295</CCRDataObjectID>
+          <DateTime>
+            <Type>
+              <Text>Date test ordered</Text>
+            </Type>
+            <ExactDateTime>2009-04-12T00:00:00.000+12:00</ExactDateTime>
+          </DateTime>
+          <Type>
+            <Text>Result</Text>
+          </Type>
+          <Description>
+            <Text>Creatinine, serum</Text>
+          </Description>
+          <TestResult>
+            <Description>
+              <Text>200</Text>
+            </Description>
+          </TestResult>
+          <Source>
+            <Actor>
+              <ActorID>The Medical Practice</ActorID>
+              <ActorRole>
+                <Text>Healthcare facility</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Test>
+        <Test>
+          <CCRDataObjectID>5CD52A08-1168-4226-A4A7-03EC90FC0194</CCRDataObjectID>
+          <DateTime>
+            <Type>
+              <Text>Date test ordered</Text>
+            </Type>
+            <ExactDateTime>2009-04-12T00:00:00.000+12:00</ExactDateTime>
+          </DateTime>
+          <Type>
+            <Text>Result</Text>
+          </Type>
+          <Description>
+            <Text>Potassium (K), serum</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>The Medical Practice</ActorID>
+              <ActorRole>
+                <Text>Healthcare facility</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Test>
+        <Test>
+          <CCRDataObjectID>A150CEB8-DDDB-4779-A288-D966F0ECB260</CCRDataObjectID>
+          <DateTime>
+            <Type>
+              <Text>Date test ordered</Text>
+            </Type>
+            <ExactDateTime>2009-04-12T00:00:00.000+12:00</ExactDateTime>
+          </DateTime>
+          <Type>
+            <Text>Result</Text>
+          </Type>
+          <Description>
+            <Text>Sodium (Na), serum</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>The Medical Practice</ActorID>
+              <ActorRole>
+                <Text>Healthcare facility</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Test>
+        <Test>
+          <CCRDataObjectID>87CAA551-FB22-4DE7-B753-DCC467893729</CCRDataObjectID>
+          <DateTime>
+            <Type>
+              <Text>Date test ordered</Text>
+            </Type>
+            <ExactDateTime>2009-04-12T00:00:00.000+12:00</ExactDateTime>
+          </DateTime>
+          <Type>
+            <Text>Result</Text>
+          </Type>
+          <Description>
+            <Text>Total CO2</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>The Medical Practice</ActorID>
+              <ActorRole>
+                <Text>Healthcare facility</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Test>
+        <Test>
+          <CCRDataObjectID>DBE2076E-11EE-4D59-B45C-3DE515A6977F</CCRDataObjectID>
+          <DateTime>
+            <Type>
+              <Text>Date test ordered</Text>
+            </Type>
+            <ExactDateTime>2009-04-12T00:00:00.000+12:00</ExactDateTime>
+          </DateTime>
+          <Type>
+            <Text>Result</Text>
+          </Type>
+          <Description>
+            <Text>Urea, serum</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>The Medical Practice</ActorID>
+              <ActorRole>
+                <Text>Healthcare facility</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Test>
+      </Result>
+      <Result>
+        <CCRDataObjectID>66C0D010-3E3D-4351-810C-66B7A84757A6</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Date ordered</Text>
+          </Type>
+          <ExactDateTime>2009-02-03T00:00:00.000+12:00</ExactDateTime>
+        </DateTime>
+        <DateTime>
+          <Type>
+            <Text>Date reported</Text>
+          </Type>
+          <ExactDateTime>2009-02-03</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Test</Text>
+        </Type>
+        <Description>
+          <Text>Full blood count</Text>
+        </Description>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+        <Test>
+          <CCRDataObjectID>5098C2E4-24A4-4828-84E9-C76E90E59D3B</CCRDataObjectID>
+          <DateTime>
+            <Type>
+              <Text>Date test ordered</Text>
+            </Type>
+            <ExactDateTime>2009-02-03T00:00:00.000+12:00</ExactDateTime>
+          </DateTime>
+          <Type>
+            <Text>Result</Text>
+          </Type>
+          <Description>
+            <Text>Basophils, blood</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>The Medical Practice</ActorID>
+              <ActorRole>
+                <Text>Healthcare facility</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Test>
+        <Test>
+          <CCRDataObjectID>A84E4975-E0C7-4F5D-9537-AC8E33E8C04D</CCRDataObjectID>
+          <DateTime>
+            <Type>
+              <Text>Date test ordered</Text>
+            </Type>
+            <ExactDateTime>2009-02-03T00:00:00.000+12:00</ExactDateTime>
+          </DateTime>
+          <Type>
+            <Text>Result</Text>
+          </Type>
+          <Description>
+            <Text>Eosinophils, blood</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>The Medical Practice</ActorID>
+              <ActorRole>
+                <Text>Healthcare facility</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Test>
+        <Test>
+          <CCRDataObjectID>A1DE9617-3EBA-49D7-B87F-8480573C1297</CCRDataObjectID>
+          <DateTime>
+            <Type>
+              <Text>Date test ordered</Text>
+            </Type>
+            <ExactDateTime>2009-02-03T00:00:00.000+12:00</ExactDateTime>
+          </DateTime>
+          <Type>
+            <Text>Result</Text>
+          </Type>
+          <Description>
+            <Text>Erythrocyte count</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>The Medical Practice</ActorID>
+              <ActorRole>
+                <Text>Healthcare facility</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Test>
+        <Test>
+          <CCRDataObjectID>B820D96B-AEB9-485C-B9ED-D468E12E54C9</CCRDataObjectID>
+          <DateTime>
+            <Type>
+              <Text>Date test ordered</Text>
+            </Type>
+            <ExactDateTime>2009-02-03T00:00:00.000+12:00</ExactDateTime>
+          </DateTime>
+          <Type>
+            <Text>Result</Text>
+          </Type>
+          <Description>
+            <Text>Hemoglobin, blood</Text>
+          </Description>
+          <TestResult>
+            <Description>
+              <Text>150</Text>
+            </Description>
+          </TestResult>
+          <Source>
+            <Actor>
+              <ActorID>The Medical Practice</ActorID>
+              <ActorRole>
+                <Text>Healthcare facility</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Test>
+        <Test>
+          <CCRDataObjectID>713105D5-0145-4A65-A551-1B9520F30A74</CCRDataObjectID>
+          <DateTime>
+            <Type>
+              <Text>Date test ordered</Text>
+            </Type>
+            <ExactDateTime>2009-02-03T00:00:00.000+12:00</ExactDateTime>
+          </DateTime>
+          <Type>
+            <Text>Result</Text>
+          </Type>
+          <Description>
+            <Text>Lymphocytes, blood</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>The Medical Practice</ActorID>
+              <ActorRole>
+                <Text>Healthcare facility</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Test>
+        <Test>
+          <CCRDataObjectID>7F4363E4-7F23-4CE4-9880-481E9F568DA3</CCRDataObjectID>
+          <DateTime>
+            <Type>
+              <Text>Date test ordered</Text>
+            </Type>
+            <ExactDateTime>2009-02-03T00:00:00.000+12:00</ExactDateTime>
+          </DateTime>
+          <Type>
+            <Text>Result</Text>
+          </Type>
+          <Description>
+            <Text>Mean corpuscular hemoglobin</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>The Medical Practice</ActorID>
+              <ActorRole>
+                <Text>Healthcare facility</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Test>
+        <Test>
+          <CCRDataObjectID>A4A60A40-2F07-431B-8AF4-C5D27A44C9EB</CCRDataObjectID>
+          <DateTime>
+            <Type>
+              <Text>Date test ordered</Text>
+            </Type>
+            <ExactDateTime>2009-02-03T00:00:00.000+12:00</ExactDateTime>
+          </DateTime>
+          <Type>
+            <Text>Result</Text>
+          </Type>
+          <Description>
+            <Text>Mean corpuscular hemoglobin concentration</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>The Medical Practice</ActorID>
+              <ActorRole>
+                <Text>Healthcare facility</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Test>
+        <Test>
+          <CCRDataObjectID>AB6EB28B-BEBD-4C3D-8A73-1883F999E429</CCRDataObjectID>
+          <DateTime>
+            <Type>
+              <Text>Date test ordered</Text>
+            </Type>
+            <ExactDateTime>2009-02-03T00:00:00.000+12:00</ExactDateTime>
+          </DateTime>
+          <Type>
+            <Text>Result</Text>
+          </Type>
+          <Description>
+            <Text>Mean corpuscular volume</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>The Medical Practice</ActorID>
+              <ActorRole>
+                <Text>Healthcare facility</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Test>
+        <Test>
+          <CCRDataObjectID>29943B5C-1ECF-4089-BA8D-49A513307E31</CCRDataObjectID>
+          <DateTime>
+            <Type>
+              <Text>Date test ordered</Text>
+            </Type>
+            <ExactDateTime>2009-02-03T00:00:00.000+12:00</ExactDateTime>
+          </DateTime>
+          <Type>
+            <Text>Result</Text>
+          </Type>
+          <Description>
+            <Text>Monocytes, blood</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>The Medical Practice</ActorID>
+              <ActorRole>
+                <Text>Healthcare facility</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Test>
+        <Test>
+          <CCRDataObjectID>C6003798-3926-4CF3-8FB5-A167F85A37E5</CCRDataObjectID>
+          <DateTime>
+            <Type>
+              <Text>Date test ordered</Text>
+            </Type>
+            <ExactDateTime>2009-02-03T00:00:00.000+12:00</ExactDateTime>
+          </DateTime>
+          <Type>
+            <Text>Result</Text>
+          </Type>
+          <Description>
+            <Text>Neutrophils, blood</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>The Medical Practice</ActorID>
+              <ActorRole>
+                <Text>Healthcare facility</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Test>
+        <Test>
+          <CCRDataObjectID>42F35B55-CE3B-4AF8-8263-C412A8EE6787</CCRDataObjectID>
+          <DateTime>
+            <Type>
+              <Text>Date test ordered</Text>
+            </Type>
+            <ExactDateTime>2009-02-03T00:00:00.000+12:00</ExactDateTime>
+          </DateTime>
+          <Type>
+            <Text>Result</Text>
+          </Type>
+          <Description>
+            <Text>Packed cell volume (hematocrit), blood</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>The Medical Practice</ActorID>
+              <ActorRole>
+                <Text>Healthcare facility</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Test>
+        <Test>
+          <CCRDataObjectID>2C82179D-9E09-4306-8BD8-5489C491EDC5</CCRDataObjectID>
+          <DateTime>
+            <Type>
+              <Text>Date test ordered</Text>
+            </Type>
+            <ExactDateTime>2009-02-03T00:00:00.000+12:00</ExactDateTime>
+          </DateTime>
+          <Type>
+            <Text>Result</Text>
+          </Type>
+          <Description>
+            <Text>Peripheral blood smear</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>The Medical Practice</ActorID>
+              <ActorRole>
+                <Text>Healthcare facility</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Test>
+        <Test>
+          <CCRDataObjectID>A02E2E13-0FC9-4A88-BBD5-58AAB2F517BC</CCRDataObjectID>
+          <DateTime>
+            <Type>
+              <Text>Date test ordered</Text>
+            </Type>
+            <ExactDateTime>2009-02-03T00:00:00.000+12:00</ExactDateTime>
+          </DateTime>
+          <Type>
+            <Text>Result</Text>
+          </Type>
+          <Description>
+            <Text>Platelet count, blood</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>The Medical Practice</ActorID>
+              <ActorRole>
+                <Text>Healthcare facility</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Test>
+        <Test>
+          <CCRDataObjectID>340DD62F-36D3-4BBB-A297-BD5F609EB661</CCRDataObjectID>
+          <DateTime>
+            <Type>
+              <Text>Date test ordered</Text>
+            </Type>
+            <ExactDateTime>2009-02-03T00:00:00.000+12:00</ExactDateTime>
+          </DateTime>
+          <Type>
+            <Text>Result</Text>
+          </Type>
+          <Description>
+            <Text>White cell count, blood</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>The Medical Practice</ActorID>
+              <ActorRole>
+                <Text>Healthcare facility</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Test>
+      </Result>
+      <Result>
+        <CCRDataObjectID>2B4978F8-E394-41E4-8EE9-7685B4311E83</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Date ordered</Text>
+          </Type>
+          <ExactDateTime>2009-01-01T00:00:00.000+12:00</ExactDateTime>
+        </DateTime>
+        <DateTime>
+          <Type>
+            <Text>Date reported</Text>
+          </Type>
+          <ExactDateTime>2009-01-30</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Test</Text>
+        </Type>
+        <Description>
+          <Text>Full blood count</Text>
+        </Description>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+        <Test>
+          <CCRDataObjectID>946390C5-498A-4A74-BBE9-AD023DF3F1C4</CCRDataObjectID>
+          <DateTime>
+            <Type>
+              <Text>Date test ordered</Text>
+            </Type>
+            <ExactDateTime>2009-02-03T00:00:00.000+12:00</ExactDateTime>
+          </DateTime>
+          <Type>
+            <Text>Result</Text>
+          </Type>
+          <Description>
+            <Text>Basophils, blood</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>The Medical Practice</ActorID>
+              <ActorRole>
+                <Text>Healthcare facility</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Test>
+        <Test>
+          <CCRDataObjectID>65B1CEF9-E8AF-4F02-855A-BA7BD3A182CC</CCRDataObjectID>
+          <DateTime>
+            <Type>
+              <Text>Date test ordered</Text>
+            </Type>
+            <ExactDateTime>2009-02-03T00:00:00.000+12:00</ExactDateTime>
+          </DateTime>
+          <Type>
+            <Text>Result</Text>
+          </Type>
+          <Description>
+            <Text>Eosinophils, blood</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>The Medical Practice</ActorID>
+              <ActorRole>
+                <Text>Healthcare facility</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Test>
+        <Test>
+          <CCRDataObjectID>70AEF621-7FD5-49E2-B587-07EB3971A1CF</CCRDataObjectID>
+          <DateTime>
+            <Type>
+              <Text>Date test ordered</Text>
+            </Type>
+            <ExactDateTime>2009-02-03T00:00:00.000+12:00</ExactDateTime>
+          </DateTime>
+          <Type>
+            <Text>Result</Text>
+          </Type>
+          <Description>
+            <Text>Erythrocyte count</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>The Medical Practice</ActorID>
+              <ActorRole>
+                <Text>Healthcare facility</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Test>
+        <Test>
+          <CCRDataObjectID>9BB3A628-A0BF-40FB-8C8C-80229DBA78E5</CCRDataObjectID>
+          <DateTime>
+            <Type>
+              <Text>Date test ordered</Text>
+            </Type>
+            <ExactDateTime>2009-02-03T00:00:00.000+12:00</ExactDateTime>
+          </DateTime>
+          <Type>
+            <Text>Result</Text>
+          </Type>
+          <Description>
+            <Text>Hemoglobin, blood</Text>
+          </Description>
+          <TestResult>
+            <Description>
+              <Text>160</Text>
+            </Description>
+          </TestResult>
+          <Source>
+            <Actor>
+              <ActorID>The Medical Practice</ActorID>
+              <ActorRole>
+                <Text>Healthcare facility</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Test>
+        <Test>
+          <CCRDataObjectID>15C91DDC-73E7-45E2-8160-CF8B8814CC24</CCRDataObjectID>
+          <DateTime>
+            <Type>
+              <Text>Date test ordered</Text>
+            </Type>
+            <ExactDateTime>2009-02-03T00:00:00.000+12:00</ExactDateTime>
+          </DateTime>
+          <Type>
+            <Text>Result</Text>
+          </Type>
+          <Description>
+            <Text>Lymphocytes, blood</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>The Medical Practice</ActorID>
+              <ActorRole>
+                <Text>Healthcare facility</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Test>
+        <Test>
+          <CCRDataObjectID>75BE4119-96CB-4AE6-9C7B-2F181C8CDD60</CCRDataObjectID>
+          <DateTime>
+            <Type>
+              <Text>Date test ordered</Text>
+            </Type>
+            <ExactDateTime>2009-02-03T00:00:00.000+12:00</ExactDateTime>
+          </DateTime>
+          <Type>
+            <Text>Result</Text>
+          </Type>
+          <Description>
+            <Text>Mean corpuscular hemoglobin</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>The Medical Practice</ActorID>
+              <ActorRole>
+                <Text>Healthcare facility</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Test>
+        <Test>
+          <CCRDataObjectID>81FB33B9-B3EB-4CF8-A06E-8957465FCAA4</CCRDataObjectID>
+          <DateTime>
+            <Type>
+              <Text>Date test ordered</Text>
+            </Type>
+            <ExactDateTime>2009-02-03T00:00:00.000+12:00</ExactDateTime>
+          </DateTime>
+          <Type>
+            <Text>Result</Text>
+          </Type>
+          <Description>
+            <Text>Mean corpuscular hemoglobin concentration</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>The Medical Practice</ActorID>
+              <ActorRole>
+                <Text>Healthcare facility</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Test>
+        <Test>
+          <CCRDataObjectID>2FBA6A1A-A6E3-4F67-9BCB-DB36028F7B32</CCRDataObjectID>
+          <DateTime>
+            <Type>
+              <Text>Date test ordered</Text>
+            </Type>
+            <ExactDateTime>2009-02-03T00:00:00.000+12:00</ExactDateTime>
+          </DateTime>
+          <Type>
+            <Text>Result</Text>
+          </Type>
+          <Description>
+            <Text>Mean corpuscular volume</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>The Medical Practice</ActorID>
+              <ActorRole>
+                <Text>Healthcare facility</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Test>
+        <Test>
+          <CCRDataObjectID>7A26FE4E-29E8-4F24-9C36-F43187EB7A6A</CCRDataObjectID>
+          <DateTime>
+            <Type>
+              <Text>Date test ordered</Text>
+            </Type>
+            <ExactDateTime>2009-02-03T00:00:00.000+12:00</ExactDateTime>
+          </DateTime>
+          <Type>
+            <Text>Result</Text>
+          </Type>
+          <Description>
+            <Text>Monocytes, blood</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>The Medical Practice</ActorID>
+              <ActorRole>
+                <Text>Healthcare facility</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Test>
+        <Test>
+          <CCRDataObjectID>053A7076-A8BC-4B19-AB76-C88504231C25</CCRDataObjectID>
+          <DateTime>
+            <Type>
+              <Text>Date test ordered</Text>
+            </Type>
+            <ExactDateTime>2009-02-03T00:00:00.000+12:00</ExactDateTime>
+          </DateTime>
+          <Type>
+            <Text>Result</Text>
+          </Type>
+          <Description>
+            <Text>Neutrophils, blood</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>The Medical Practice</ActorID>
+              <ActorRole>
+                <Text>Healthcare facility</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Test>
+        <Test>
+          <CCRDataObjectID>DD500CB2-0889-4FD9-B4B9-15D44360F56B</CCRDataObjectID>
+          <DateTime>
+            <Type>
+              <Text>Date test ordered</Text>
+            </Type>
+            <ExactDateTime>2009-02-03T00:00:00.000+12:00</ExactDateTime>
+          </DateTime>
+          <Type>
+            <Text>Result</Text>
+          </Type>
+          <Description>
+            <Text>Packed cell volume (hematocrit), blood</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>The Medical Practice</ActorID>
+              <ActorRole>
+                <Text>Healthcare facility</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Test>
+        <Test>
+          <CCRDataObjectID>8F3AC148-DCB8-4BF7-A945-6F97F4294DA1</CCRDataObjectID>
+          <DateTime>
+            <Type>
+              <Text>Date test ordered</Text>
+            </Type>
+            <ExactDateTime>2009-02-03T00:00:00.000+12:00</ExactDateTime>
+          </DateTime>
+          <Type>
+            <Text>Result</Text>
+          </Type>
+          <Description>
+            <Text>Peripheral blood smear</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>The Medical Practice</ActorID>
+              <ActorRole>
+                <Text>Healthcare facility</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Test>
+        <Test>
+          <CCRDataObjectID>B812A97F-9BBE-4300-A8DF-77E9BD9F1D05</CCRDataObjectID>
+          <DateTime>
+            <Type>
+              <Text>Date test ordered</Text>
+            </Type>
+            <ExactDateTime>2009-02-03T00:00:00.000+12:00</ExactDateTime>
+          </DateTime>
+          <Type>
+            <Text>Result</Text>
+          </Type>
+          <Description>
+            <Text>Platelet count, blood</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>The Medical Practice</ActorID>
+              <ActorRole>
+                <Text>Healthcare facility</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Test>
+        <Test>
+          <CCRDataObjectID>B13E31D1-C481-468D-B355-6148E3109866</CCRDataObjectID>
+          <DateTime>
+            <Type>
+              <Text>Date test ordered</Text>
+            </Type>
+            <ExactDateTime>2009-02-03T00:00:00.000+12:00</ExactDateTime>
+          </DateTime>
+          <Type>
+            <Text>Result</Text>
+          </Type>
+          <Description>
+            <Text>White cell count, blood</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>The Medical Practice</ActorID>
+              <ActorRole>
+                <Text>Healthcare facility</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Test>
+      </Result>
+      <Result>
+        <CCRDataObjectID>40E1EBD6-7C3C-45C5-BDA5-EFDF8F15835C</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Date ordered</Text>
+          </Type>
+          <ExactDateTime>2008-11-05T00:00:00.000+12:00</ExactDateTime>
+        </DateTime>
+        <DateTime>
+          <Type>
+            <Text>Date reported</Text>
+          </Type>
+          <ExactDateTime>2008-12-01</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Test</Text>
+        </Type>
+        <Description>
+          <Text>C-Reactive protein</Text>
+        </Description>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+        <Test>
+          <CCRDataObjectID>7DA86EFC-2A5D-4F98-893D-DA642F6E5001</CCRDataObjectID>
+          <DateTime>
+            <Type>
+              <Text>Date test ordered</Text>
+            </Type>
+            <ExactDateTime>2009-02-03T00:00:00.000+12:00</ExactDateTime>
+          </DateTime>
+          <Type>
+            <Text>Result</Text>
+          </Type>
+          <Description>
+            <Text>C-Reactive protein</Text>
+          </Description>
+          <TestResult>
+            <Description>
+              <Text>50</Text>
+            </Description>
+          </TestResult>
+          <Source>
+            <Actor>
+              <ActorID>The Medical Practice</ActorID>
+              <ActorRole>
+                <Text>Healthcare facility</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Test>
+      </Result>
+      <Result>
+        <CCRDataObjectID>ABC896A1-8F53-4C47-8523-66336AA04281</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Date ordered</Text>
+          </Type>
+          <ExactDateTime>2008-08-01T00:00:00.000+12:00</ExactDateTime>
+        </DateTime>
+        <DateTime>
+          <Type>
+            <Text>Date reported</Text>
+          </Type>
+          <ExactDateTime>2008-09-02</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Test</Text>
+        </Type>
+        <Description>
+          <Text>Full blood count</Text>
+        </Description>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+        <Test>
+          <CCRDataObjectID>65893F26-773B-4714-B234-DDB9E72DE413</CCRDataObjectID>
+          <DateTime>
+            <Type>
+              <Text>Date test ordered</Text>
+            </Type>
+            <ExactDateTime>2009-02-03T00:00:00.000+12:00</ExactDateTime>
+          </DateTime>
+          <Type>
+            <Text>Result</Text>
+          </Type>
+          <Description>
+            <Text>Basophils, blood</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>The Medical Practice</ActorID>
+              <ActorRole>
+                <Text>Healthcare facility</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Test>
+        <Test>
+          <CCRDataObjectID>A5AB21C9-F4CF-4905-9BB6-742FB03AE329</CCRDataObjectID>
+          <DateTime>
+            <Type>
+              <Text>Date test ordered</Text>
+            </Type>
+            <ExactDateTime>2009-02-03T00:00:00.000+12:00</ExactDateTime>
+          </DateTime>
+          <Type>
+            <Text>Result</Text>
+          </Type>
+          <Description>
+            <Text>Eosinophils, blood</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>The Medical Practice</ActorID>
+              <ActorRole>
+                <Text>Healthcare facility</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Test>
+        <Test>
+          <CCRDataObjectID>0BCA60F2-D9F8-45CE-A173-47B50FAF3269</CCRDataObjectID>
+          <DateTime>
+            <Type>
+              <Text>Date test ordered</Text>
+            </Type>
+            <ExactDateTime>2009-02-03T00:00:00.000+12:00</ExactDateTime>
+          </DateTime>
+          <Type>
+            <Text>Result</Text>
+          </Type>
+          <Description>
+            <Text>Erythrocyte count</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>The Medical Practice</ActorID>
+              <ActorRole>
+                <Text>Healthcare facility</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Test>
+        <Test>
+          <CCRDataObjectID>431907C5-5B0C-4940-B7D6-E2AEEDEFA44B</CCRDataObjectID>
+          <DateTime>
+            <Type>
+              <Text>Date test ordered</Text>
+            </Type>
+            <ExactDateTime>2009-02-03T00:00:00.000+12:00</ExactDateTime>
+          </DateTime>
+          <Type>
+            <Text>Result</Text>
+          </Type>
+          <Description>
+            <Text>Hemoglobin, blood</Text>
+          </Description>
+          <TestResult>
+            <Description>
+              <Text>90</Text>
+            </Description>
+          </TestResult>
+          <Source>
+            <Actor>
+              <ActorID>The Medical Practice</ActorID>
+              <ActorRole>
+                <Text>Healthcare facility</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Test>
+        <Test>
+          <CCRDataObjectID>F3D6EA12-2DFC-4AAC-838A-E77C30F498C6</CCRDataObjectID>
+          <DateTime>
+            <Type>
+              <Text>Date test ordered</Text>
+            </Type>
+            <ExactDateTime>2009-02-03T00:00:00.000+12:00</ExactDateTime>
+          </DateTime>
+          <Type>
+            <Text>Result</Text>
+          </Type>
+          <Description>
+            <Text>Lymphocytes, blood</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>The Medical Practice</ActorID>
+              <ActorRole>
+                <Text>Healthcare facility</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Test>
+        <Test>
+          <CCRDataObjectID>CBB3F9D0-ED1C-403F-83EB-E0DD49DACDFD</CCRDataObjectID>
+          <DateTime>
+            <Type>
+              <Text>Date test ordered</Text>
+            </Type>
+            <ExactDateTime>2009-02-03T00:00:00.000+12:00</ExactDateTime>
+          </DateTime>
+          <Type>
+            <Text>Result</Text>
+          </Type>
+          <Description>
+            <Text>Mean corpuscular hemoglobin</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>The Medical Practice</ActorID>
+              <ActorRole>
+                <Text>Healthcare facility</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Test>
+        <Test>
+          <CCRDataObjectID>E7CB30DC-7285-488E-B984-29B31903E0EA</CCRDataObjectID>
+          <DateTime>
+            <Type>
+              <Text>Date test ordered</Text>
+            </Type>
+            <ExactDateTime>2009-02-03T00:00:00.000+12:00</ExactDateTime>
+          </DateTime>
+          <Type>
+            <Text>Result</Text>
+          </Type>
+          <Description>
+            <Text>Mean corpuscular hemoglobin concentration</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>The Medical Practice</ActorID>
+              <ActorRole>
+                <Text>Healthcare facility</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Test>
+        <Test>
+          <CCRDataObjectID>E13588B9-61AC-4702-B180-9AB03F57D398</CCRDataObjectID>
+          <DateTime>
+            <Type>
+              <Text>Date test ordered</Text>
+            </Type>
+            <ExactDateTime>2009-02-03T00:00:00.000+12:00</ExactDateTime>
+          </DateTime>
+          <Type>
+            <Text>Result</Text>
+          </Type>
+          <Description>
+            <Text>Mean corpuscular volume</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>The Medical Practice</ActorID>
+              <ActorRole>
+                <Text>Healthcare facility</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Test>
+        <Test>
+          <CCRDataObjectID>2C30D99D-9121-4F72-8D9D-1B5F7D943CB7</CCRDataObjectID>
+          <DateTime>
+            <Type>
+              <Text>Date test ordered</Text>
+            </Type>
+            <ExactDateTime>2009-02-03T00:00:00.000+12:00</ExactDateTime>
+          </DateTime>
+          <Type>
+            <Text>Result</Text>
+          </Type>
+          <Description>
+            <Text>Monocytes, blood</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>The Medical Practice</ActorID>
+              <ActorRole>
+                <Text>Healthcare facility</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Test>
+        <Test>
+          <CCRDataObjectID>938959A1-025B-4BD4-8AD7-206B6CD1B5B0</CCRDataObjectID>
+          <DateTime>
+            <Type>
+              <Text>Date test ordered</Text>
+            </Type>
+            <ExactDateTime>2009-02-03T00:00:00.000+12:00</ExactDateTime>
+          </DateTime>
+          <Type>
+            <Text>Result</Text>
+          </Type>
+          <Description>
+            <Text>Neutrophils, blood</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>The Medical Practice</ActorID>
+              <ActorRole>
+                <Text>Healthcare facility</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Test>
+        <Test>
+          <CCRDataObjectID>8FD47402-F326-4FF3-90B5-4492428FF982</CCRDataObjectID>
+          <DateTime>
+            <Type>
+              <Text>Date test ordered</Text>
+            </Type>
+            <ExactDateTime>2009-02-03T00:00:00.000+12:00</ExactDateTime>
+          </DateTime>
+          <Type>
+            <Text>Result</Text>
+          </Type>
+          <Description>
+            <Text>Packed cell volume (hematocrit), blood</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>The Medical Practice</ActorID>
+              <ActorRole>
+                <Text>Healthcare facility</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Test>
+        <Test>
+          <CCRDataObjectID>9437756D-78D1-4D53-9F54-084F338C6D85</CCRDataObjectID>
+          <DateTime>
+            <Type>
+              <Text>Date test ordered</Text>
+            </Type>
+            <ExactDateTime>2009-02-03T00:00:00.000+12:00</ExactDateTime>
+          </DateTime>
+          <Type>
+            <Text>Result</Text>
+          </Type>
+          <Description>
+            <Text>Peripheral blood smear</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>The Medical Practice</ActorID>
+              <ActorRole>
+                <Text>Healthcare facility</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Test>
+        <Test>
+          <CCRDataObjectID>04E721EB-3F7A-438C-A4B5-C9E8C6898601</CCRDataObjectID>
+          <DateTime>
+            <Type>
+              <Text>Date test ordered</Text>
+            </Type>
+            <ExactDateTime>2009-02-03T00:00:00.000+12:00</ExactDateTime>
+          </DateTime>
+          <Type>
+            <Text>Result</Text>
+          </Type>
+          <Description>
+            <Text>Platelet count, blood</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>The Medical Practice</ActorID>
+              <ActorRole>
+                <Text>Healthcare facility</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Test>
+        <Test>
+          <CCRDataObjectID>9E19DAB6-D0DB-43E9-B1E3-638CE5489445</CCRDataObjectID>
+          <DateTime>
+            <Type>
+              <Text>Date test ordered</Text>
+            </Type>
+            <ExactDateTime>2009-02-03T00:00:00.000+12:00</ExactDateTime>
+          </DateTime>
+          <Type>
+            <Text>Result</Text>
+          </Type>
+          <Description>
+            <Text>White cell count, blood</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>The Medical Practice</ActorID>
+              <ActorRole>
+                <Text>Healthcare facility</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Test>
+      </Result>
+    </Results>
+    <Procedures>
+      <Procedure>
+        <CCRDataObjectID>1CE5D56A-2B4B-4833-AC10-28C2DC9C0ABB</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Date of procedure</Text>
+          </Type>
+          <ExactDateTime>1992</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Procedure</Text>
+        </Type>
+        <Description>
+          <Text>Appendectomy</Text>
+        </Description>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healtcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </Procedure>
+    </Procedures>
+    <Encounters>
+      <Encounter>
+        <CCRDataObjectID>8A6C3DD4-A1F0-4E1D-B774-DED86EBA92BE</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Encounter time</Text>
+          </Type>
+          <ExactDateTime>2009-05-07T06:56:29.000+12:00</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Consultation</Text>
+        </Type>
+        <Description>
+          <Text>{\rtf1\ansi\ansicpg1252\deff0\deflang5129{\fonttbl{\f0\fnil Arial;}{\f1\fnil Tahoma;}}
+{\colortbl ;\red0\green0\blue128;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\b\f0\fs16 May 07, 2009, at 06:56\par
+Office visit, est. patient - Level 2, Ltd 10 min at 06:56\par
+\cf2 1: Earache at 06:56\par
+\cf3 Subjective:\par
+\pard\cf0\b0\f1 Earache; \par
+Ear discharge; \par
+No vertigo; \par
+No tinnitus; \par
+Fever; \par
+Sore throat, no exudate; \par
+\par
+\pard\cf3\b\f0 Objective:\par
+\pard\cf0\b0\f1 Fever; \par
+Ear, pus discharging; Right, \par
+Otitis media; Right, \par
+No cholesteatoma; \par
+No mastoiditis; \par
+\par
+\pard\cf2\b\f0 2: Headache at 06:23\par
+\cf3 Subjective:\par
+\pard\cf0\b0\f1 Headache; \par
+\par
+\pard\cf3\b\f0 Duration of event: 00:11:20\par
+\b0\i Dr Doctor, Doc on Jun 21, 2009, 11:20 (Physician)\par
+Dr Doctor, Doc on Jun 17, 2009, 06:21 (Physician)\par
+Dr Doctor, Doc on Jun 17, 2009, 06:20 (Physician)\par
+Dr Doctor, Doc on Jun 12, 2009, 21:24 (Physician)\par
+Dr Doctor, Doc on May 13, 2009, 06:23 (Physician)\par
+Dr Doctor, Doc on May 10, 2009, 10:31 (Physician)\par
+Dr Doctor, Doc on May 09, 2009, 06:13 (Physician)\par
+Dr Doctor, Doc on May 08, 2009, 22:15 (Physician)\par
+Dr Doctor, Doc on May 08, 2009, 22:14 (Physician)\par
+Dr Doctor, Doc on May 08, 2009, 22:12 (Physician)\par
+Dr Doctor, Doc on May 08, 2009, 20:46 (Physician)\par
+Dr Doctor, Doc on May 08, 2009, 20:39 (Physician)\par
+Dr Doctor, Doc on May 08, 2009, 20:38 (Physician)\par
+Dr Doctor, Doc on May 08, 2009, 20:27 (Physician)\par
+Dr Doctor, Doc on May 07, 2009, 06:57 (Physician)\par
+Dr Doctor, Doc on Jun 21, 2009, 11:27 (Physician)\par
+\cf0\i0\f1\par
+}
+</Text>
+        </Description>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </Encounter>
+      <Encounter>
+        <CCRDataObjectID>7525E253-3CAF-4B21-B9E6-776D5C697E19</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Encounter time</Text>
+          </Type>
+          <ExactDateTime>2009-04-24T08:30:27.000+12:00</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Immunization</Text>
+        </Type>
+        <Description>
+          <Text>IMMUNIZATION: Influenza, trivalent inactivated (TIV)  on 24/04/2009</Text>
+        </Description>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </Encounter>
+      <Encounter>
+        <CCRDataObjectID>018BAB8B-345D-45D1-BC91-CEEDDF13C20B</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Encounter time</Text>
+          </Type>
+          <ExactDateTime>2009-04-24T08:09:38.000+12:00</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Interactions</Text>
+        </Type>
+        <Description>
+          <Text>MEDICATION INTERACTIONS: POTENTIAL ALLERGIC REACTION: clarithromycin is a component of the prescribed drug and belongs to the macrolide antibiotics category. The patient is noted to be allergic to or have a reaction with macrolide antibiotics
+
+MINOR DRUG INTERACTION
+Grapefruit juice may delay the gastrointestinal absorption of clarithromycin but does not appear to affect the overall extent of absorption or inhibit the metabolism of clarithromycin.  The mechanism of interaction is unknown but may be related to competition for intestinal CYP450 3A4 and/or absorptive sites.  In an open-label, randomized, crossover study consisting of 12 healthy subjects, coadministration with grapefruit juice increased the time to reach peak plasma concentration (Tmax) of both clarithromycin and 14-hydroxyclarithromycin (the active metabolite) by 80% and 104%, respectively, compared to water.  Other pharmacokinetic parameters were not significantly altered.  This interaction is unlikely to be of clinical significance.
+
+MODERATE DRUG INTERACTION
+MONITOR:  Nonsteroidal anti-inflammatory drugs (NSAIDs) may attenuate the antihypertensive effects of ACE inhibitors.  The proposed mechanism is NSAID-induced inhibition of renal prostaglandin synthesis, which results in unopposed pressor activity producing hypertension.  In addition, NSAIDs can cause fluid retention, which also affects blood pressure.  Some NSAIDs may also alter the pharmacokinetics of certain ACE inhibitors.  For example, oxaprozin has been shown to reduce the systemic exposure (AUC) of enalapril and its active metabolite, enalaprilat.
+
+MONITOR:  Concomitant use of NSAIDs and ACE inhibitors may increase the risk of renal impairment, particularly in volume-depleted patients.  Chronic use of NSAIDs alone may be associated with renal toxicities, including elevations in serum creatinine and BUN, tubular necrosis, glomerulitis, renal papillary necrosis, acute interstitial nephritis, nephrotic syndrome, and renal failure.  Additionally, in patients with prerenal conditions whose renal perfusion may be dependent on the function of prostaglandins, NSAIDs may precipitate overt renal decompensation via a dose-related inhibition of prostaglandin synthesis.  ACE inhibitors can further worsen renal function by blocking the effect of angiotensin II-mediated efferent arteriolar vasoconstriction, thereby decreasing glomerular filtration.
+
+MANAGEMENT:  Patients receiving ACE inhibitors who require prolonged (greater than 1 week) concomitant therapy with an NSAID should have blood pressure monitored more closely following initiation, discontinuation, or change of dosage of the NSAID.  Renal function should also be evaluated periodically during prolonged coadministration.  The interaction is not expected to occur with low doses (e.g., low-dose aspirin) or intermittent short-term administration of NSAIDs.
+
+MODERATE DRUG INTERACTION
+GENERALLY AVOID:  Moderate-to-high dietary intake of potassium can cause hyperkalemia in some patients who are using angiotensin converting enzyme (ACE) inhibitors.  In some cases, affected patients were using a potassium-rich salt substitute.  ACE inhibitors can promote hyperkalemia through inhibition of the renin-aldosterone-angiotensin (RAA) system.  
+
+MANAGEMENT:  It is recommended that patients who are taking ACE inhibitors be advised to avoid moderately high or high potassium dietary intake.  Particular attention should be paid to the potassium content of salt substitutes.
+
+SEVERE POTENTIAL HAZARD (HIGHLY PLAUSIBLE HAZARD)
+Approximately 10% of patients with asthma may have aspirin-sensitive asthma, characterized by nasal polyposis, pansinusitis, eosinophilia, and precipitation of asthma and rhinitis attacks after ingestion of aspirin.  The use of aspirin in these patients has been associated with severe bronchospasm and fatal anaphylactoid reactions.  Since cross-sensitivity has been noted between aspirin and other nonsteroidal anti-inflammatory drugs (NSAIDs), therapy with any NSAID should be avoided in asthmatic patients with a history of aspirin or other NSAID sensitivity, and administered cautiously in all patients with preexisting asthma.  Prior to initiating therapy with NSAIDs, patients should be questioned about previous allergic-type reactions to these agents.  Salicylate salts, salsalate, salicylamide, and acetaminophen may be appropriate alternatives in patients with a history of NSAID-induced bronchospasm, since cross-sensitivity to these agents appears to be low.  However, cross-sensitivity has been demonstrated occasionally with high dosages of these agents (e.g., acetaminophen &gt;= 1000 mg), thus it may be appropriate to initiate therapy with low dosages and increase gradually.  There is some evidence suggesting that COX-2 inhibitors may be safely used in patients with aspirin-sensitive asthma, although the labeling for these products contraindicate such use.  If necessary, aspirin desensitization may also be attempted in some patients under medical surveillance.
+
+SEVERE POTENTIAL HAZARD (HIGHLY PLAUSIBLE HAZARD)
+Nonsteroidal anti-inflammatory drugs (NSAIDs) can cause gastrointestinal mucosal damage, the risk of which appears to be related to both dosage and duration of therapy.  Serious GI toxicity such as bleeding, ulceration and perforation can develop at any time, with or without warning symptoms, and occurs in approximately 1% of patients treated for 3 to 6 months and 2% to 4% of patients treated for one year.  These trends continue with longer duration of use, although short-term therapy is not without risk.  While agents that selectively inhibit cyclooxygenase-2 (i.e., COX-2 inhibitors) are generally thought to be associated with a reduced risk of GI toxicity compared to conventional NSAIDs, they have not been proven risk-free.  In addition, there is evidence that COX-2 inhibitors may delay healing of gastric ulcers, and likely to the same extent as traditional NSAIDs.  Thus, therapy with all NSAIDs, including COX-2 inhibitors, should be prescribed cautiously in patients with a history of peptic ulcer disease and/or gastrointestinal bleeding.  Patients with such a history who use NSAIDs have a greater than 10-fold increased risk for developing a GI bleed compared to patients with neither of these risk factors.  Caution is also advised if NSAIDs are prescribed to patients with other risk factors such as oral corticosteroid or anticoagulant use, alcohol use, smoking, older age, and poor general health status.  Particular vigilance is necessary when treating elderly (i.e., age 60 years or more) and/or debilitated patients, since they are often more susceptible to the GI toxicity of these drugs and seem to tolerate ulceration and bleeding less well than younger, healthier individuals.  Whenever possible, especially if prolonged use is anticipated, treatment with non-ulcerogenic agents should be attempted first.  If NSAIDS are used, patients should be treated with the lowest effective dosage for the shortest duration possible, and prophylactic therapy with a cytoprotective agent (e.g., misoprostol), histamine H2-receptor antagonist, or a proton pump inhibitor should be administered as necessary.  Patients should be counseled to avoid or minimize consumption of alcohol during NSAID therapy.  Three or more alcoholic drinks per day during NSAID use may increase the risk of gastrointestinal ulceration and bleeding.  Patients should also be advised to promptly seek medical attention if they experience symptoms that could indicate serious GI tract ulceration or bleeding such as epigastric pain, dyspepsia, melena, and hematemesis.
+
+
+ACTION TO BE TAKEN: 
+No action to be taken
+</Text>
+        </Description>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </Encounter>
+      <Encounter>
+        <CCRDataObjectID>6CEEDC89-9177-4453-90AF-180A99DD0C95</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Encounter time</Text>
+          </Type>
+          <ExactDateTime>2009-04-22T06:57:27.000+12:00</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Drug</Text>
+        </Type>
+        <Description>
+          <Text>MEDICATION: Medication stopped - acetaminophen 500 mg tablet 2 tab(s) every 6 hours  orally   (240, Reason stopped: Completed course) </Text>
+        </Description>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </Encounter>
+      <Encounter>
+        <CCRDataObjectID>0A1E142F-86E4-44B4-97F3-2B9F9EDE7760</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Encounter time</Text>
+          </Type>
+          <ExactDateTime>2009-04-21T06:57:47.000+12:00</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Diagnosis</Text>
+        </Type>
+        <Description>
+          <Text>DIAGNOSIS (Active): Asthma ( on 21/04/2009)</Text>
+        </Description>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </Encounter>
+      <Encounter>
+        <CCRDataObjectID>64D29F0B-AC45-419A-854C-4B9897367875</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Encounter time</Text>
+          </Type>
+          <ExactDateTime>2009-04-21T06:55:00.000+12:00</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Consultation</Text>
+        </Type>
+        <Description>
+          <Text>{\rtf1\ansi\ansicpg1252\deff0\deflang5129{\fonttbl{\f0\fnil Arial;}{\f1\fnil Tahoma;}}
+{\colortbl ;\red0\green0\blue128;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\b\f0\fs16 April 21, 2009, at 06:55\par
+Office visit, est. patient - Level 2, Ltd 10 min at 06:55\par
+\cf2 1: Peptic ulcer disease at 06:55\par
+\cf3 Subjective:\par
+\pard\cf0\b0\f1 Peptic ulcer disease; \par
+\par
+\pard\cf1\b\f0 Diagnosis:\par
+\cf3\b0 Peptic ulcer disease (533.9) \par
+\cf1\b Medication Prescribed:\par
+\cf3\b0 clarithromycin 500 mg tablet, extended release 2 tab(s) once a day orally   - 14 (R x 0 ) starting 24/04/2009 ending 1/05/2009\par
+diclofenac sodium 75 mg enteric coated tablet 1 tab(s) 2 times a day orally   - 60 (R x 0 ) starting 24/04/2009 ending 24/05/2009\par
+perindopril 4 mg tablet 1 tab(s) once a day orally   - 30 (R x 0 ) starting 21/04/2009 ending 21/05/2009\par
+\cf1\b Medication Given:\par
+\cf3\b0 Toradol IM 30 mg/mL solution x 1 given at Office at 2009/04/23 21:57\par
+Tetanus Toxoid Adsorbed 5 units/0.5 mL suspension x 1 given at Office at 2009/04/23 21:58\par
+predniSONE 50 mg tablet x 1 given at Office at 2009/04/23 21:59\par
+\b Duration of event: 00:19:30\par
+\b0\i Dr Doctor, Doc on Apr 24, 2009, 06:46 (Physician)\par
+Dr Doctor, Doc on Apr 23, 2009, 22:24 (Physician)\par
+Dr Doctor, Doc on Apr 23, 2009, 22:17 (Physician)\par
+Dr Doctor, Doc on Apr 23, 2009, 22:01 (Physician)\par
+Dr Doctor, Doc on Apr 22, 2009, 06:55 (Physician)\par
+Dr Doctor, Doc on Apr 21, 2009, 23:28 (Physician)\par
+Dr Doctor, Doc on Apr 21, 2009, 23:24 (Physician)\par
+Dr Doctor, Doc on Apr 21, 2009, 23:12 (Physician)\par
+Dr Doctor, Doc on Apr 21, 2009, 22:45 (Physician)\par
+Dr Doctor, Doc on Apr 21, 2009, 22:29 (Physician)\par
+Dr Doctor, Doc on Apr 21, 2009, 07:05 (Physician)\par
+Dr Doctor, Doc on Apr 21, 2009, 06:57 (Physician)\par
+Dr Doctor, Doc on Apr 21, 2009, 06:56 (Physician)\par
+Dr Doctor, Doc on Apr 24, 2009, 08:04 (Physician)\par
+\cf0\i0\f1\par
+}
+</Text>
+        </Description>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </Encounter>
+      <Encounter>
+        <CCRDataObjectID>6A42B0AB-C1F9-4457-B64C-62088C0376B8</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Encounter time</Text>
+          </Type>
+          <ExactDateTime>2009-04-18T09:54:43.000+12:00</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Alert</Text>
+        </Type>
+        <Description>
+          <Text>ALERT (Confirmed): Hyzaar since 18/04/2009</Text>
+        </Description>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </Encounter>
+      <Encounter>
+        <CCRDataObjectID>AB0E2AAC-3D8E-4976-8D69-023B4156546D</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Encounter time</Text>
+          </Type>
+          <ExactDateTime>2009-04-18T09:51:11.000+12:00</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Alert</Text>
+        </Type>
+        <Description>
+          <Text>ALERT (Confirmed): amlodipine since 18/04/2009</Text>
+        </Description>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </Encounter>
+      <Encounter>
+        <CCRDataObjectID>183745EC-0981-4B8A-8D13-09D5A331D396</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Encounter time</Text>
+          </Type>
+          <ExactDateTime>2009-04-14T07:01:13.000+12:00</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Alert</Text>
+        </Type>
+        <Description>
+          <Text>ALERT (Confirmed): Testing since 14/04/2009</Text>
+        </Description>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </Encounter>
+      <Encounter>
+        <CCRDataObjectID>EFA16B4D-6668-4524-9D86-4891405DE44C</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Encounter time</Text>
+          </Type>
+          <ExactDateTime>2009-04-14T07:00:31.000+12:00</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Alert</Text>
+        </Type>
+        <Description>
+          <Text>ALERT (Confirmed): Bee sting since 14/04/2009</Text>
+        </Description>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </Encounter>
+      <Encounter>
+        <CCRDataObjectID>D839F46E-7725-47FC-818D-CDF22832DA38</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Encounter time</Text>
+          </Type>
+          <ExactDateTime>2009-04-14T06:58:59.000+12:00</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Alert</Text>
+        </Type>
+        <Description>
+          <Text>ALERT (Confirmed): amlodipine since 14/04/2009</Text>
+        </Description>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </Encounter>
+      <Encounter>
+        <CCRDataObjectID>8EC40471-A8E6-4021-A68C-30F4DF0FF067</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Encounter time</Text>
+          </Type>
+          <ExactDateTime>2009-04-13T21:46:16.000+12:00</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Alert</Text>
+        </Type>
+        <Description>
+          <Text>ALERT (Confirmed): macrolide antibiotics since 13/04/2009</Text>
+        </Description>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </Encounter>
+      <Encounter>
+        <CCRDataObjectID>4F2AF45A-5560-46FC-AFF7-4D7D4CDA478D</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Encounter time</Text>
+          </Type>
+          <ExactDateTime>2009-04-13T21:39:05.000+12:00</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Alert</Text>
+        </Type>
+        <Description>
+          <Text>ALERT (Confirmed): macrolide antibiotics since 13/04/2009</Text>
+        </Description>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </Encounter>
+      <Encounter>
+        <CCRDataObjectID>BD4E62CB-ABD0-4855-8FD9-D7F584B912CE</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Encounter time</Text>
+          </Type>
+          <ExactDateTime>2009-04-13T21:32:02.000+12:00</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Alert</Text>
+        </Type>
+        <Description>
+          <Text>ALERT (Confirmed): penicillins since 13/04/2009</Text>
+        </Description>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </Encounter>
+      <Encounter>
+        <CCRDataObjectID>2F7814F0-F5D3-4964-91DB-6573FC280C4A</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Encounter time</Text>
+          </Type>
+          <ExactDateTime>2009-04-12T11:33:10.000+12:00</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Test</Text>
+        </Type>
+        <Description>
+          <Text>TEST: Elecs, urea, creatinine ordered on 12/04/2009</Text>
+        </Description>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </Encounter>
+      <Encounter>
+        <CCRDataObjectID>6D7E992C-684B-4087-BD5E-0E435C2E1653</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Encounter time</Text>
+          </Type>
+          <ExactDateTime>2009-02-13T23:15:33.000+12:00</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Consultation</Text>
+        </Type>
+        <Description>
+          <Text>{\rtf1\ansi\ansicpg1252\deff0\deflang5129{\fonttbl{\f0\fnil Arial;}{\f1\fnil Tahoma;}}
+{\colortbl ;\red0\green0\blue128;\red128\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\b\f0\fs16 February 13, 2009, at 23:15\par
+Office visit, est. patient - Level 2, Ltd 10 min at 23:15\par
+\cf2 1: Sore throat at 23:16\par
+\cf3 Subjective:\par
+\pard\cf0\b0\f1 Sore throat\par
+\par
+\pard\cf1\b\f0 Diagnosis:\par
+\cf3\b0 Pharyngitis, acute (462) \par
+\b Duration of event: 00:01:20\par
+Event signed off on February 13, 2009, 23:17  by Dr Doctor, Doc (NPI12345)\par
+\b0\i Dr Doctor, Doc on Feb 13, 2009, 23:16 (Physician)\par
+\cf0\i0\f1\par
+}
+</Text>
+        </Description>
+        <Practitioners>
+          <Practitioner>
+            <ActorID>Dr Doctor, Doc</ActorID>
+            <ActorRole>
+              <Text>Provider signing off</Text>
+            </ActorRole>
+          </Practitioner>
+        </Practitioners>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </Encounter>
+      <Encounter>
+        <CCRDataObjectID>78EB2684-174C-4965-83AE-FE119BF2BEA0</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Encounter time</Text>
+          </Type>
+          <ExactDateTime>2009-02-12T06:41:31.000+12:00</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Directive</Text>
+        </Type>
+        <Description>
+          <Text>ADVANCE DIRECTIVE: Life support: No code (Active)</Text>
+        </Description>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </Encounter>
+      <Encounter>
+        <CCRDataObjectID>332C2C79-18F6-4395-93F4-03F09016DE42</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Encounter time</Text>
+          </Type>
+          <ExactDateTime>2009-02-03T23:46:32.000+12:00</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Test</Text>
+        </Type>
+        <Description>
+          <Text>TEST: C-Reactive protein ordered on 5/11/2008</Text>
+        </Description>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </Encounter>
+      <Encounter>
+        <CCRDataObjectID>85730131-161E-4B40-A7D3-02618EF7E33D</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Encounter time</Text>
+          </Type>
+          <ExactDateTime>2009-02-03T23:45:08.000+12:00</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Test</Text>
+        </Type>
+        <Description>
+          <Text>TEST: Full blood count ordered on 1/08/2008</Text>
+        </Description>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </Encounter>
+      <Encounter>
+        <CCRDataObjectID>97A51A67-42FB-4777-B30A-A4A689D2ECAC</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Encounter time</Text>
+          </Type>
+          <ExactDateTime>2009-02-03T23:41:58.000+12:00</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Test</Text>
+        </Type>
+        <Description>
+          <Text>TEST: Full blood count ordered on 3/02/2009</Text>
+        </Description>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </Encounter>
+      <Encounter>
+        <CCRDataObjectID>B04FC2E2-7B3F-4276-8340-97732E7D2A83</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Encounter time</Text>
+          </Type>
+          <ExactDateTime>2009-02-03T23:40:00.000+12:00</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Test</Text>
+        </Type>
+        <Description>
+          <Text>TEST: Full blood count ordered on 1/01/2009</Text>
+        </Description>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </Encounter>
+      <Encounter>
+        <CCRDataObjectID>FDBDF4F2-DFFA-47C6-A9BD-8BE3C36F9DDA</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Encounter time</Text>
+          </Type>
+          <ExactDateTime>2009-01-31T00:00:12.000+12:00</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Diagnosis</Text>
+        </Type>
+        <Description>
+          <Text>DIAGNOSIS (Active): Rheumatoid arthritis</Text>
+        </Description>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </Encounter>
+    </Encounters>
+  </Body>
+  <Actors>
+    <Actor>
+      <ActorObjectID>Andrew_Aperson</ActorObjectID>
+      <Person>
+        <Name>
+          <CurrentName>
+            <Given>Andrew</Given>
+            <Family>Aperson</Family>
+            <NickName>Andy</NickName>
+          </CurrentName>
+          <DisplayName>Aperson, Andrew (Andy)</DisplayName>
+        </Name>
+        <DateOfBirth>
+          <ExactDateTime>1961-01-01</ExactDateTime>
+        </DateOfBirth>
+        <Gender>
+          <Text>Male</Text>
+          <Code>
+            <Value>248153007</Value>
+            <CodingSystem>SNOMED</CodingSystem>
+          </Code>
+        </Gender>
+      </Person>
+      <Address>
+        <Line1>Address 1</Line1>
+        <Line2>Address 2</Line2>
+        <City>City</City>
+        <State>NE</State>
+        <PostalCode>1234</PostalCode>
+      </Address>
+      <IDs>
+        <Type>
+          <Text>SSN</Text>
+        </Type>
+        <ID>546732819</ID>
+        <Source>
+          <Actor>
+            <ActorID>Andrew_Aperson</ActorID>
+            <ActorRole>
+              <Text>Patient</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Telephone>
+        <Value>1234 5678</Value>
+        <Type>
+          <Text>Home phone</Text>
+        </Type>
+      </Telephone>
+      <Telephone>
+        <Value>9123 4567</Value>
+        <Type>
+          <Text>Work phone</Text>
+        </Type>
+      </Telephone>
+      <Telephone>
+        <Value>0291235555</Value>
+        <Type>
+          <Text>Mobile phone</Text>
+        </Type>
+      </Telephone>
+      <EMail>
+        <Value>test@test.net</Value>
+      </EMail>
+      <Status>
+        <Text>Active</Text>
+      </Status>
+      <Source>
+        <Actor>
+          <ActorID>The Medical Practice</ActorID>
+          <ActorRole>
+            <Text>Healthcare Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>The Medical Practice</ActorObjectID>
+      <Organization>
+        <Name>The Medical Practice</Name>
+      </Organization>
+      <Address>
+        <Line1>1 Practice Lane</Line1>
+        <City>Omaha</City>
+        <State>NE</State>
+      </Address>
+      <IDs>
+        <Type>
+          <Text>Practice or Clinic number</Text>
+        </Type>
+        <ID>546732819</ID>
+        <Source>
+          <Actor>
+            <ActorID>The Medical Practice</ActorID>
+            <ActorRole>
+              <Text>Healthcare facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Source>
+        <Actor>
+          <ActorID>The Medical Practice</ActorID>
+          <ActorRole>
+            <Text>Healthcare Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+  </Actors>
+</ContinuityOfCareRecord>

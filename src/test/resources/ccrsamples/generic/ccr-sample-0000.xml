@@ -1,0 +1,6040 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContinuityOfCareRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:astm-org:CCR">
+  <CCRDocumentObjectID>Medent_001558a0f5f8_47262ce8_19947_0</CCRDocumentObjectID>
+  <Language>
+    <Text>English</Text>
+  </Language>
+  <Version>V1.0</Version>
+  <DateTime>
+    <ExactDateTime>2007-10-29T14:56:40-04:00</ExactDateTime>
+  </DateTime>
+  <Patient>
+    <ActorID>AA0001</ActorID>
+  </Patient>
+  <From>
+    <ActorLink>
+      <ActorID>US0550</ActorID>
+    </ActorLink>
+  </From>
+  <Body>
+    <Problems>
+      <Problem>
+        <CCRDataObjectID>Problem_1</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Onset</Text>
+          </Type>
+          <ExactDateTime>2006-11-26T05:00:00Z</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Problem</Text>
+        </Type>
+        <Description>
+          <Text>Asthma</Text>
+          <Code>
+            <Value>12428000</Value>
+            <CodingSystem>SNOMED-CT</CodingSystem>
+          </Code>
+        </Description>
+        <Status>
+          <Text>Chronic</Text>
+        </Status>
+        <Source>
+          <Actor>
+            <ActorID>MD0299</ActorID>
+            <ActorRole>
+              <Text>Healthcare Provider</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+        <CommentID>Com_1</CommentID>
+      </Problem>
+    </Problems>
+    <FamilyHistory>
+      <FamilyProblemHistory>
+        <CCRDataObjectID>Fam_1</CCRDataObjectID>
+        <Type>
+          <Text>Problem</Text>
+        </Type>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+        <Source>
+          <Actor>
+            <ActorID>AA0001</ActorID>
+            <ActorRole>
+              <Text>Patient</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+        <FamilyMember>
+          <ActorRole>
+            <Text>Father</Text>
+          </ActorRole>
+          <Source>
+            <Actor>
+              <ActorID>AA0001</ActorID>
+              <ActorRole>
+                <Text>Patient</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </FamilyMember>
+        <Problem>
+          <Type>
+            <Text>Problem</Text>
+          </Type>
+          <Description>
+            <Text>Cancer, Ovarian</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>AA0001</ActorID>
+              <ActorRole>
+                <Text>Patient</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </Problem>
+      </FamilyProblemHistory>
+    </FamilyHistory>
+    <SocialHistory>
+      <SocialHistoryElement>
+        <CCRDataObjectID>Soc_1</CCRDataObjectID>
+        <Type>
+          <Text>Race</Text>
+        </Type>
+        <Description>
+          <Text>Caucasian</Text>
+          <Code>
+            <Value>413773004</Value>
+            <CodingSystem>SNOMED CT</CodingSystem>
+            <Version>2005</Version>
+          </Code>
+        </Description>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+        <Source>
+          <Actor>
+            <ActorID>AA0001</ActorID>
+            <ActorRole>
+              <Text>Patient</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </SocialHistoryElement>
+    </SocialHistory>
+    <Alerts>
+      <Alert>
+        <CCRDataObjectID>Alert_1</CCRDataObjectID>
+        <DateTime>
+          <ExactDateTime>2003-08-27T05:00:00Z</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Allergy</Text>
+        </Type>
+        <Description>
+         <Text>Kiwi Fruit</Text>
+        </Description>
+        <Status>
+         <Text>Active</Text>
+        </Status>
+        <Source>
+          <Actor>
+            <ActorID>PR0001</ActorID>
+            <ActorRole>
+              <Text>Primary Medical Facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </Alert>
+    </Alerts>
+    <Medications>
+      <Medication>
+        <CCRDataObjectID>Med_1</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Prescribed</Text>
+          </Type>
+          <ExactDateTime>2007-10-15T05:00:00Z</ExactDateTime>
+        </DateTime>
+        <Type>
+         <Text>Medication</Text>
+        </Type>
+        <Status>
+         <Text>Active</Text>
+        </Status>
+        <Source>
+          <Actor>
+            <ActorID>MD0012</ActorID>
+            <ActorRole>
+              <Text>Healthcare Provider</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+        <Product>
+          <ProductName>
+            <Text>1-Methyl 2-Pyrrolidinone</Text>
+            <Code>
+              <Value>51927204100</Value>
+              <CodingSystem>NDC</CodingSystem>
+            </Code>
+          </ProductName>
+          <Strength>
+            <Value>1-</Value>
+            <Units>
+              <Unit>Methyl</Unit>
+            </Units>
+          </Strength>
+          <Form>
+            <Text>Liquid</Text>
+          </Form>
+        </Product>
+        <Directions>
+          <Direction>
+            <Description>
+              <Text>Testing The Rx Freq Files</Text>
+            </Description>
+          <Indication>
+            <Description>
+              <Text>Hypertension Benign</Text>
+              <Code>
+                <Value>401.1</Value>
+                <CodingSystem>ICD9</CodingSystem>
+              </Code>
+            </Description>
+        <Source>
+          <Actor>
+            <ActorID>MD0012</ActorID>
+            <ActorRole>
+              <Text>Healthcare Provider</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+          </Indication>
+          <Indication>
+            <Description>
+              <Text>Hypothyroidism Other Unspec</Text>
+              <Code>
+                <Value>244.9</Value>
+                <CodingSystem>ICD9</CodingSystem>
+              </Code>
+            </Description>
+        <Source>
+          <Actor>
+            <ActorID>MD0012</ActorID>
+            <ActorRole>
+              <Text>Healthcare Provider</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+          </Indication>
+          <Indication>
+            <Description>
+              <Text>Diabetes Mellitus W/O Compl Type I Juvenile Controlled</Text>
+              <Code>
+                <Value>250.01</Value>
+                <CodingSystem>ICD9</CodingSystem>
+              </Code>
+            </Description>
+        <Source>
+          <Actor>
+            <ActorID>MD0012</ActorID>
+            <ActorRole>
+              <Text>Healthcare Provider</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+          </Indication>
+          </Direction>
+        </Directions>
+        <Refills>
+          <Refill>
+              <Number>0</Number>
+            </Refill>
+        </Refills>
+      </Medication>
+    </Medications>
+    <Immunizations>
+      <Immunization>
+        <CCRDataObjectID>Imm_1</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Given</Text>
+          </Type>
+          <ExactDateTime>2007-09-11T20:52:00Z</ExactDateTime>
+        </DateTime>
+        <DateTime>
+          <Type>
+            <Text>Ordered</Text>
+          </Type>
+          <ExactDateTime>2007-09-11T20:50:00Z</ExactDateTime>
+        </DateTime>
+          <Source>
+            <Actor>
+              <ActorID>MD0101</ActorID>
+              <ActorRole>
+                <Text>Healthcare Provider</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        <Product>
+          <ProductName>
+            <Text>Botulism Immune Globulin Human Intravenous</Text>
+            <Code>
+              <Value>90288</Value>
+              <CodingSystem>CPT</CodingSystem>
+            </Code>
+          </ProductName>
+        </Product>
+      </Immunization>
+    </Immunizations>
+    <VitalSigns>
+      <Result>
+        <CCRDataObjectID>Vital_1</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Assessment Time</Text>
+          </Type>
+          <ExactDateTime>2006-11-02T08:13:00-04:00</ExactDateTime>
+        </DateTime>
+        <Description>
+          <Text>Vital Signs</Text>
+        </Description>
+        <Source>
+          <Actor>
+            <ActorID>MD0275</ActorID>
+            <ActorRole>
+              <Text>Healthcare Provider</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+        <Test>
+          <CCRDataObjectID>Test_1_1</CCRDataObjectID>
+          <Description>
+            <Text>Height</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>MD0275</ActorID>
+              <ActorRole>
+                <Text>Healthcare Provider</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+          <CommentID>Com_49</CommentID>
+          <TestResult>
+            <Value>66</Value>
+            <Units>
+              <Unit>inches</Unit>
+            </Units>
+          </TestResult>
+        </Test>
+        <Test>
+          <CCRDataObjectID>Test_1_2</CCRDataObjectID>
+          <Description>
+            <Text>Height Percentile</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>MD0275</ActorID>
+              <ActorRole>
+                <Text>Healthcare Provider</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+          <TestResult>
+            <Value>&gt;95TH</Value>
+          </TestResult>
+        </Test>
+        <Test>
+          <CCRDataObjectID>Test_1_3</CCRDataObjectID>
+          <Description>
+            <Text>Weight</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>MD0275</ActorID>
+              <ActorRole>
+                <Text>Healthcare Provider</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+          <TestResult>
+            <Value>160</Value>
+            <Units>
+              <Unit>lb</Unit>
+            </Units>
+          </TestResult>
+        </Test>
+        <Test>
+          <CCRDataObjectID>Test_1_4</CCRDataObjectID>
+          <Description>
+            <Text>Weight Percentile</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>MD0275</ActorID>
+              <ActorRole>
+                <Text>Healthcare Provider</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+          <TestResult>
+            <Value>&gt;95TH</Value>
+          </TestResult>
+        </Test>
+        <Test>
+          <CCRDataObjectID>Test_1_5</CCRDataObjectID>
+          <Description>
+            <Text>Body Mass Index</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>MD0275</ActorID>
+              <ActorRole>
+                <Text>Healthcare Provider</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+          <TestResult>
+            <Value>25.8</Value>
+          </TestResult>
+        </Test>
+        <Test>
+          <CCRDataObjectID>Test_1_6</CCRDataObjectID>
+          <Description>
+            <Text>BMI Percentile</Text>
+          </Description>
+          <Source>
+            <Actor>
+              <ActorID>MD0275</ActorID>
+              <ActorRole>
+                <Text>Healthcare Provider</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+          <TestResult>
+            <Value>&gt;95TH</Value>
+          </TestResult>
+        </Test>
+      </Result>
+    </VitalSigns>
+    <Results>
+      <Result>
+        <CCRDataObjectID>Res_58</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Acquired</Text>
+          </Type>
+          <ExactDateTime>2007-09-27T15:13:00-04:00</ExactDateTime>
+        </DateTime>
+        <DateTime>
+          <Type>
+            <Text>Scheduled</Text>
+          </Type>
+          <ExactDateTime>2007-09-27T15:13:00-04:00</ExactDateTime>
+        </DateTime>
+        <DateTime>
+          <Type>
+            <Text>Ordered</Text>
+          </Type>
+          <ExactDateTime>2007-09-27T15:11:00-04:00</ExactDateTime>
+        </DateTime>
+        <IDs>
+          <Type>
+            <Text>Requisition</Text>
+          </Type>
+          <ID>67257</ID>
+          <IssuedBy>
+            <ActorID>PR0001</ActorID>
+          </IssuedBy>
+          <Source>
+            <Actor>
+              <ActorID>IS0001</ActorID>
+              <ActorRole>
+                <Text>EHR System</Text>
+              </ActorRole>
+            </Actor>
+          </Source>
+        </IDs>
+        <Description>
+          <Text>Xray</Text>
+        </Description>
+        <Source>
+          <Actor>
+            <ActorID>MD0326</ActorID>
+            <ActorRole>
+              <Text>Healthcare Provider</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </Result>
+    </Results>
+    <Procedures>
+      <Procedure>
+        <CCRDataObjectID>Prc_1</CCRDataObjectID>
+        <DateTime>
+          <Type>
+            <Text>Date</Text>
+          </Type>
+          <ExactDateTime>2007-09-07T05:00:00Z</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Procedure</Text>
+        </Type>
+        <Description>
+          <Text>Torodol Injection 15 MG Dose</Text>
+          <Code>
+            <Value>J1885</Value>
+            <CodingSystem>CPT</CodingSystem>
+          </Code>
+        </Description>
+        <Status>
+          <Text>Completed</Text>
+        </Status>
+        <Source>
+          <Actor>
+            <ActorID>MD0322</ActorID>
+            <ActorRole>
+              <Text>Healthcare Provider</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </Procedure>
+    </Procedures>
+    <Encounters>
+      <Encounter>
+        <CCRDataObjectID>Enc_1</CCRDataObjectID>
+        <DateTime>
+          <ExactDateTime>2007-02-06T20:42:00Z</ExactDateTime>
+        </DateTime>
+        <Type>
+          <Text>Physician Office Visit</Text>
+        </Type>
+        <Status>
+          <Text>Open</Text>
+        </Status>
+        <Source>
+          <Actor>
+            <ActorID>PR0001</ActorID>
+            <ActorRole>
+              <Text>Primary Medical Facility</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+        <Locations>
+          <Location>
+            <Actor>
+              <ActorID>LOC_1</ActorID>
+            </Actor>
+          </Location>
+        </Locations>
+        <Practitioners>
+          <Practitioner>
+            <ActorID>MD0299</ActorID>
+            <ActorRole>
+              <Text>Healthcare Provider</Text>
+            </ActorRole>
+          </Practitioner>
+        </Practitioners>
+      </Encounter>
+    </Encounters>
+    <HealthCareProviders>
+      <Provider>
+        <ActorID>MD0275</ActorID>
+        <ActorRole>
+          <Text>Performing/Rendering Doctor</Text>
+        </ActorRole>
+      </Provider>
+    </HealthCareProviders>
+  </Body>
+  <Actors>
+    <Actor>
+      <ActorObjectID>AA0001</ActorObjectID>
+      <Person>
+        <Name>
+          <BirthName>
+            <Given>John</Given>
+            <Middle>A</Middle>
+          </BirthName>
+          <CurrentName>
+            <Given>John</Given>
+            <Middle>A</Middle>
+            <Family>Doe</Family>
+          </CurrentName>
+          <DisplayName>John A Doe</DisplayName>
+        </Name>
+        <DateOfBirth>
+          <Type>
+            <Text>Date of Birth</Text>
+          </Type>
+          <ExactDateTime>2001-01-01T05:00:00Z</ExactDateTime>
+        </DateOfBirth>
+      <Gender>
+          <Text>Male</Text>
+        </Gender>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>SSN</Text>
+        </Type>
+        <ID>025687452</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>Account</Text>
+        </Type>
+        <ID>69478</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Patient</Text>
+      </Relation>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>22 Test Lane</Line1>
+        <City>Manlius</City>
+        <State>NY</State>
+        <PostalCode>13104-4000</PostalCode>
+      </Address>
+      <Telephone>
+        <Value>(607)-855-1234</Value>
+        <Type>
+          <Text>Home</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Telephone>
+        <Value>(315)-722-2222</Value>
+        <Type>
+          <Text>Cell</Text>
+        </Type>
+        <Priority>2</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Telephone>
+        <Value>(607)-266-4522</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>3</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <EMail>
+        <Value>test@test.com</Value>
+        <Type>
+          <Text>Email</Text>
+        </Type>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </EMail>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>US0550</ActorObjectID>
+      <Person>
+        <Name>
+          <BirthName>
+            <Given>Lauren</Given>
+          </BirthName>
+          <CurrentName>
+            <Given>Lauren</Given>
+            <Family>Collier</Family>
+          </CurrentName>
+          <DisplayName>Lauren Collier</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>UserId</Text>
+        </Type>
+        <ID>LAUREN</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>System User</Text>
+      </Relation>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>IS0001</ActorObjectID>
+      <InformationSystem>
+        <Name>Medent</Name>
+        <Type>EMR/EHR</Type>
+        <Version>18.0217</Version>
+      </InformationSystem>
+      <Relation>
+        <Text>EHR System</Text>
+      </Relation>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>P.O.Box 980</Line1>
+        <City>Auburn</City>
+        <State>NY</State>
+        <PostalCode>13021</PostalCode>
+      </Address>
+      <Telephone>
+        <Value>(315) 255-1751</Value>
+        <Type>
+          <Text>Business</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <URL>
+        <Value>www.medent.com</Value>
+        <Type>
+          <Text>Website</Text>
+        </Type>
+      </URL>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>PR0001</ActorObjectID>
+      <Organization>
+        <Name>Familycare Medical Group pc</Name>
+      </Organization>
+      <Relation>
+        <Text>Practice</Text>
+      </Relation>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>1001 W Fayette St  Ste 400</Line1>
+        <Line2>Syracuse, NY 13204</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-472-1488</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0299</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Parker, Michael, MD</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>299</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>UPIN</Text>
+        </Type>
+        <ID>C64728</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1104808898</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Otolaryngology</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>5639 W Genesee St</Line1>
+        <Line2>Camillus, NY 13031</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-468-6888</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>UK0001</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Unknown</DisplayName>
+        </Name>
+      </Person>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0131</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Brodey, Mitchell V, MD</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>131</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>UPIN</Text>
+        </Type>
+        <ID>C58681</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1174501498</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Internal Medicine</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>4900 Broad RD CGH Pob Ste.4K,</Line1>
+        <Line2>Syracuse, NY 13215-2265</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-492-5784</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0271</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Wasserman, Louis, MD</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>271</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>UPIN</Text>
+        </Type>
+        <ID>B81207</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1871589689</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Cardiovsclr Disease</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>5700 W Genesee St Ste 1N</Line1>
+        <Line2>Camillus NY 13031-3200</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-472-1488</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0221</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Keenen, Charles, MD</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>221</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>UPIN</Text>
+        </Type>
+        <ID>H37840</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1588643423</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Family Medicine; Adolescent,&lt;21</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>37 West Garden St Ste 102</Line1>
+        <Line2>Auburn, NY 13021-2662</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-282-0525</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0091</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Eppolito, John F, MD</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>91</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>UPIN</Text>
+        </Type>
+        <ID>B82447</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1346228525</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Family Medicine; Adolescent,&lt;21</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>2949 State RT 370</Line1>
+        <Line2>Cato, NY 13033-9707</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-626-2117</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0291</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Nuclear Stress Testing</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>291</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Family Medicine</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>Medical Center West Ste 1N</Line1>
+        <Line2>5700 W Genesee St, Camillus, NY 13031-3200</Line2>
+      </Address>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0013</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Lawless, James F, MD</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>13</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>UPIN</Text>
+        </Type>
+        <ID>B81929</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1114910874</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Family Medicine; Adolescent,&lt;21</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>436 Hinsdale Road</Line1>
+        <Line2>Camillus, NY 13031-1648</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-488-0996</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0322</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Freeman, Gary, MD</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>322</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>UPIN</Text>
+        </Type>
+        <ID>E15717</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1114906732</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Family Medicine; Adolescent,&lt;21</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>4820 W Taft Medical Park Ste 108</Line1>
+        <Line2>Liverpool, NY 13088-2800</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-413-0004</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0399</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Ztest,Test</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>399</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>1001 W Fayette St  Ste 400</Line1>
+        <Line2>Syracuse, NY 13204-2859</Line2>
+      </Address>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0321</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Cambareri, Joseph, MD</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>321</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>UPIN</Text>
+        </Type>
+        <ID>E28162</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1891774543</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Family Medicine; Adolescent,&lt;21</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>4820 W Taft Medical Park Ste 108</Line1>
+        <Line2>Liverpool, NY 13088-2800</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-413-0004</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0012</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Page, David T, MD</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>12</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>UPIN</Text>
+        </Type>
+        <ID>B82928</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1114920287</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Family Medicine; Adolescent,&lt;21</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>436 Hinsdale Road</Line1>
+        <Line2>Camillus, NY 13031-1648</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-488-0996</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0349</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Maurer, Robin, NP</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>349</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>UPIN</Text>
+        </Type>
+        <ID>S65390</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1114997509</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Family/NP; Adolescent,&lt;21</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>792 N Main St Ste 200A</Line1>
+        <Line2>N Syracuse,NY 13212-1644</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-458-8700</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0072</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Lipsky, Theresa R, MD</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>72</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>UPIN</Text>
+        </Type>
+        <ID>G13999</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1861478646</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Family Medicine; Adolescent,&lt;21</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>4652 Nixon Park Drive</Line1>
+        <Line2>Syracuse, NY 13215-9700</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-492-3403</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0042</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Carlberg, Marybeth,MD</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>42</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>UPIN</Text>
+        </Type>
+        <ID>B81903</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1720064470</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Family Medicine; Adolescent,&lt;21</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>783 Franklin St Road</Line1>
+        <Line2>Skaneateles, NY 13152-9313</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-685-8988</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0152</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Macadam, Heather M,MD</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>152</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>UPIN</Text>
+        </Type>
+        <ID>G83475</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1265411052</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Internal Medicine</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>PO Box 250 Wells Road</Line1>
+        <Line2>Aurora, NY 13026-8724</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-364-3388</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0261</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Scinta, Wendy, MD</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>261</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>UPIN</Text>
+        </Type>
+        <ID>H44838</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1861471500</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Family Medicine; Adolescent,&lt;21</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>8112 Cazenovia Road</Line1>
+        <Line2>Manlius, NY 13104-9780</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-682-1689</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0159</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Saxton, Colleen C, RN MS FNP</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>159</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>UPIN</Text>
+        </Type>
+        <ID>S77076</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1255301396</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Family/NP; Adolescent,&lt;21</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>PO Box 250  Wells Road</Line1>
+        <Line2>Aurora, NY 13026-8724</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-364-3388</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0161</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Soderberg, Peer, MD</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>161</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>UPIN</Text>
+        </Type>
+        <ID>H24865</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1316926397</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Family Medicine; Adolescent,&lt;21</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>5566 Jordan RD</Line1>
+        <Line2>Elbridge, NY 13060-9617</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-689-1833</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0201</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Springer, Sharon S,MD</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>201</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>UPIN</Text>
+        </Type>
+        <ID>F79005</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1679552673</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Internal Medicine</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>1101 Erie BLVD. E Ste 200</Line1>
+        <Line2>Syracuse, NY 13210-1144</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-476-7600</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0002</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Mirabito, Debra Ann, NP</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>2</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>UPIN</Text>
+        </Type>
+        <ID>P30081</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1215907589</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Family/NP; Adolescent,&lt;21</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>5700 W Genesee St Ste 109N</Line1>
+        <Line2>Camillus NY 13031-3200</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-487-1573</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0011</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Laclair, Thomas J, MD</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>11</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>UPIN</Text>
+        </Type>
+        <ID>B82595</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1003819053</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Family Medicine; Adolescent,&lt;21</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>436 Hinsdale Road</Line1>
+        <Line2>Camillus, NY 13031-1648</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-488-0996</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0063</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Glowacki, Michael, MD</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>63</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>UPIN</Text>
+        </Type>
+        <ID>G34034</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1730165457</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Family Medicine; Adolescent,&lt;21</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>PO Box 70  3922 Fennell St</Line1>
+        <Line2>Skaneateles, NY 13152-9316</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-685-0908</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0191</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Sangani, Geeta, MD</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>191</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>UPIN</Text>
+        </Type>
+        <ID>F54948</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1992784995</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Internal Medicine</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>191 Intrepid Lane</Line1>
+        <Line2>Syracuse, NY 13205-2548</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-492-5208</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0275</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Martinez, Jorge, MD</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>275</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>UPIN</Text>
+        </Type>
+        <ID>C79804</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1902892714</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Cardiology/Phys/Osteo</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>5700 W Genesee St 1N</Line1>
+        <Line2>Camillus NY 13031-3200</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-492-5973</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0005</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Langley, Patti, RN, MSN, NP</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>5</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Family/NP</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>1001 W Fayette St  Ste 400</Line1>
+        <Line2>Syracuse, NY 13204-2859</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-472-1488</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0141</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Geurtsen, Aart,MD</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>141</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>UPIN</Text>
+        </Type>
+        <ID>B82585</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1104805167</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Family Medicine; Adolescent,&lt;21</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>28 1/2 E Main St</Line1>
+        <Line2>Marcellus, NY  13108-1216</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-472-1488</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0285</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Walford, Gary, MD</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>285</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>UPIN</Text>
+        </Type>
+        <ID>B69272</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1841286796</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Cardiovsclr Disease</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>5700 W Genesee St Ste 1N</Line1>
+        <Line2>Camillus, NY 13031-3200</Line2>
+      </Address>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0241</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Mackowiak, Stanley, MD</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>241</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>UPIN</Text>
+        </Type>
+        <ID>D88458</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1508845470</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Pediatric Endocrinology; Adolescent,&lt;21</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>191 Intrepid Lane</Line1>
+        <Line2>Syracuse, NY 13205-2548</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-469-4298</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0199</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Cook, Jolene, NP</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>199</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1356320600</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Family/NP; Adolescent,&lt;21</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>191 Intrepid Lane</Line1>
+        <Line2>Syracuse, NY 13205-2548</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-469-3373</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0101</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Coppola, Devin, MD</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>101</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>UPIN</Text>
+        </Type>
+        <ID>G56895</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Family Medicine</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>1001 W Fayette St  Ste 400</Line1>
+        <Line2>Syracuse, NY 13204-2859</Line2>
+      </Address>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MF0002</ActorObjectID>
+      <Organization>
+        <Name>Merck</Name>
+      </Organization>
+      <Relation>
+        <Text>Manufacturer</Text>
+      </Relation>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MF0005</ActorObjectID>
+      <Organization>
+        <Name>Wyeth</Name>
+      </Organization>
+      <Relation>
+        <Text>Manufacturer</Text>
+      </Relation>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0151</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Trabout, Marshall, MD</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>151</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>UPIN</Text>
+        </Type>
+        <ID>B82058</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1558340331</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Internal Medicine</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>18 Wells Road</Line1>
+        <Line2>Aurora, NY 13026-8724</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-364-3388</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MF0001</ActorObjectID>
+      <Organization>
+        <Name>Pharmacia</Name>
+      </Organization>
+      <Relation>
+        <Text>Manufacturer</Text>
+      </Relation>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MF0008</ActorObjectID>
+      <Organization>
+        <Name>Smithkline Beecham</Name>
+      </Organization>
+      <Relation>
+        <Text>Manufacturer</Text>
+      </Relation>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0210</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Lukaszewicz, John, MD</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>210</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1972582807</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Family Medicine; Adolescent,&lt;21</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>1101 State Fair BLVD.</Line1>
+        <Line2>Syracuse, NY 13209-1009</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-468-4818</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0164</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Wike, Jeffrey, MD</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>164</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>UPIN</Text>
+        </Type>
+        <ID>I57805</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1659322154</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Family Medicine; Adolescent,&lt;21</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>5566 Jordan RD</Line1>
+        <Line2>Elbridge, NY 13060-9617</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-689-1833</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MF0015</ActorObjectID>
+      <Organization>
+        <Name>Sanofi Pasteur Inc</Name>
+      </Organization>
+      <Relation>
+        <Text>Manufacturer</Text>
+      </Relation>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0132</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Simon, David G, MD</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>132</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>UPIN</Text>
+        </Type>
+        <ID>B83049</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1083692271</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Internal Medicine; Infectious Diseases</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>4900 Broad RD   Pob Ste.4K</Line1>
+        <Line2>Syracuse, NY 13215-2265</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-492-5784</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>RE0012</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Page, David T, M.D.</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>12</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1114920287</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Referring Doctor</Text>
+      </Relation>
+      <Specialty>
+        <Text>Family Medicine</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>436 Hinsdale Road</Line1>
+        <Line2>, Camillus, NY 13031</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-455-7487</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0056</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Pesci, Michael, PA</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>56</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1184694614</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Physician Assistant</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>4631 Onondaga BLVD</Line1>
+        <Line2>Syracuse, NY 13219-3301</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-487-4844</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0024</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Paul R. Palmer, M.D.</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>24</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Family Medicine; Adolescent,&lt;21</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>5700 W Genesee St, Ste 109N</Line1>
+        <Line2>Camillus,NY 13031-3200</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-472-1488</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0154</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Nurses Schedule Moravia</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>154</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>1001 W Fayette St  Ste 400</Line1>
+        <Line2>Syracuse, NY 13204-2859</Line2>
+      </Address>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0298</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Kelly, Jean, NP</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>298</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>UPIN</Text>
+        </Type>
+        <ID>C29056</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1669451761</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Family/NP</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>436 Hinsdale Road</Line1>
+        <Line2>Camillus, NY 13031-1648</Line2>
+      </Address>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0232</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Christenson, Jeffrey, DO</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>232</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>UPIN</Text>
+        </Type>
+        <ID>I13552</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1154300945</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Family Medicine; Adolescent,&lt;21</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>55 E Genesee St</Line1>
+        <Line2>Baldwinsville, NY 13027-2619</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-638-1950</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0331</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Watts, James, MD</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>331</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1780662981</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>4900 Broad RD CGH Pob Ste 4K</Line1>
+        <Line2>Syracuse, NY 13215-2265</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-492-5784</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0222</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Levy, Davidd, MD</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>222</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>UPIN</Text>
+        </Type>
+        <ID>H56496</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1992784763</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Family Medicine; Adolescent,&lt;21</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>37 West Garden St Ste 102</Line1>
+        <Line2>Auburn, NY 13021-2662</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-282-0525</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0179</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Barr,Theresa,NP</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>179</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1033115399</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Family/NP</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>1351 Smith St</Line1>
+        <Line2>Fabius, NY 13063-9701</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-683-5801</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0088</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Vernay, Kathryn A, PA</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>88</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>UPIN</Text>
+        </Type>
+        <ID>S91757</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1316918568</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Physician Assistant</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>1351 Smith Street</Line1>
+        <Line2>Fabius, NY 13063</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-683-5801</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0003</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Cerza, Donna, FNP</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>3</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Family/NP; Pediatrics/NP</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>66 Central St</Line1>
+        <Line2>Moravia, 13118-3612</Line2>
+      </Address>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0295</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Cahill-Hoy, Lynn, NP</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>295</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>UPIN</Text>
+        </Type>
+        <ID>Q23150</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1811976160</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Family/NP</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>436 Hinsdale RD</Line1>
+        <Line2>Camillus, NY 13031-1648</Line2>
+      </Address>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0004</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Jansen, Mashelle, N.P.</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>4</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>UPIN</Text>
+        </Type>
+        <ID>Q07115</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1598744880</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Family/NP; Pediatrics/NP</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>66 Central Street</Line1>
+        <Line2>Moravia, NY 13118-3612</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-497-1497</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0229</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Nurses Schedule D1</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>229</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>37 West Garden Street</Line1>
+        <Line2>Auburn, NY 13021-2662</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-282-0525</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0121</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Berrios, Ramon, MD</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>121</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>UPIN</Text>
+        </Type>
+        <ID>B81399</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1952389165</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Family Medicine; Adolescent,&lt;21</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>1/2 Orange Street</Line1>
+        <Line2>Marcellus, NY 13108-1216</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-673-1529</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0326</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Freeman, Deborah, NP</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>326</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1639252422</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Nurse Practitioner; Adolescent,&lt;21</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>4820 W Taft Medical Park Ste 108</Line1>
+        <Line2>Liverpool, NY 13088-2800</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-413-0004</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0301</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Pastore, Paolo, MD</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>301</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>UPIN</Text>
+        </Type>
+        <ID>H81698</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1174502850</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Family Medicine; Adolescent,&lt;21</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>6253 Route 31</Line1>
+        <Line2>Cicero, NY 13039-8714</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-698-0290</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0015</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Research</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>15</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>1001 W Fayette St  Ste 400</Line1>
+        <Line2>Syracuse, NY 13204-2859</Line2>
+      </Address>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0342</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Barash, Anne, MD</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>342</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>UPIN</Text>
+        </Type>
+        <ID>G29834</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1902870348</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Adolescent,&lt;21; Family Medicine; Gen Practice/Phys/Osteo</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>792 N Main St Ste 200A</Line1>
+        <Line2>N Syracuse, NY 13212-1644</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-458-8700</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0346</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Barash Nurse</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>346</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>792 N Main St Ste 200A</Line1>
+        <Line2>N Syracuse, NY 13212-1644</Line2>
+      </Address>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0023</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Ristoff, Kime J., M.D.</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>23</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>UPIN</Text>
+        </Type>
+        <ID>E99064</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1932184397</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Family Medicine; Adolescent,&lt;21</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>5700 W Genesee St, Ste 109N</Line1>
+        <Line2>Camillus,NY 13031-3200</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-487-1573</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0251</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Cain, Lana, MD</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>251</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>UPIN</Text>
+        </Type>
+        <ID>H06138</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1457330334</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Family Medicine; Adolescent,&lt;21</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>191 Intrepid Lane</Line1>
+        <Line2>Syracuse, NY 13205-2548</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-492-9398</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0081</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Edinger, James, MD</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>81</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>UPIN</Text>
+        </Type>
+        <ID>F00836</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1457339756</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Family Medicine; Adolescent,&lt;21</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>5-7 State St</Line1>
+        <Line2>Tully, NY 13159-3218</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-696-4635</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>PA0046</ActorObjectID>
+      <Organization>
+        <Name>Aarp/ Uhc</Name>
+      </Organization>
+      <Relation>
+        <Text>Payer</Text>
+      </Relation>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>PO Box 740819</Line1>
+        <City>Atlanta</City>
+        <State>Ga</State>
+        <PostalCode>30374-0819</PostalCode>
+      </Address>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>PA0015</ActorObjectID>
+      <Organization>
+        <Name>United Healthcare</Name>
+      </Organization>
+      <Relation>
+        <Text>Payer</Text>
+      </Relation>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>PA0012</ActorObjectID>
+      <Organization>
+        <Name>Pomco</Name>
+      </Organization>
+      <Relation>
+        <Text>Payer</Text>
+      </Relation>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>PO Box 6329</Line1>
+        <City>Syracuse</City>
+        <State>NY</State>
+        <PostalCode>13217</PostalCode>
+      </Address>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>PA0030</ActorObjectID>
+      <Organization>
+        <Name>No Fault</Name>
+      </Organization>
+      <Relation>
+        <Text>Payer</Text>
+      </Relation>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>PA0029</ActorObjectID>
+      <Organization>
+        <Name>Workers Comp</Name>
+      </Organization>
+      <Relation>
+        <Text>Payer</Text>
+      </Relation>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>PA0002</ActorObjectID>
+      <Organization>
+        <Name>Medicare</Name>
+      </Organization>
+      <Relation>
+        <Text>Payer</Text>
+      </Relation>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>33 Lewis RD.</Line1>
+        <City>Binghamton</City>
+        <State>NY</State>
+        <PostalCode>13905</PostalCode>
+      </Address>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>PA0001</ActorObjectID>
+      <Organization>
+        <Name>Private</Name>
+      </Organization>
+      <Relation>
+        <Text>Payer</Text>
+      </Relation>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>PA0004</ActorObjectID>
+      <Organization>
+        <Name>Medicaid ###</Name>
+      </Organization>
+      <Relation>
+        <Text>Payer</Text>
+      </Relation>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>PO Box 4444</Line1>
+        <City>Albany</City>
+        <State>NY</State>
+        <PostalCode>12204</PostalCode>
+      </Address>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>PA0063</ActorObjectID>
+      <Organization>
+        <Name>Total Care</Name>
+      </Organization>
+      <Relation>
+        <Text>Payer</Text>
+      </Relation>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>PO Box 11507</Line1>
+        <City>Syracuse</City>
+        <State>NY</State>
+        <PostalCode>13218-1507</PostalCode>
+      </Address>
+      <Telephone>
+        <Value>(315)-634-5555</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>PA0005</ActorObjectID>
+      <Organization>
+        <Name>Blue Shield CNY</Name>
+      </Organization>
+      <Relation>
+        <Text>Payer</Text>
+      </Relation>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>PO Box 22999</Line1>
+        <City>Rochester</City>
+        <State>NY</State>
+        <PostalCode>14692</PostalCode>
+      </Address>
+      <Telephone>
+        <Value>(800)-920-8889</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0007</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Nelli, Judy, NP</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>7</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>UPIN</Text>
+        </Type>
+        <ID>P36414</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1720068356</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Specialty>
+        <Text>Nurse Practitioner</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>1001 W Fayette St  Ste 400</Line1>
+        <Line2>Syracuse, NY 13204-2859</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-671-0766</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>MD0073</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Nurse&apos;s Schedule Loc 7</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>73</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Healthcare Provider</Text>
+      </Relation>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>4652 Nixon Park Drive</Line1>
+        <Line2>Syracuse, NY 13204-9700</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-472-1488</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>RE2256</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Rao, Rajesh, MD</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>2256</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1528060472</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Referring Doctor</Text>
+      </Relation>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>281 Grant Ave</Line1>
+        <Line2>, Auburn, NY 13021</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-253-4459</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>RE2009</ActorObjectID>
+      <Person>
+        <Name>
+          <DisplayName>Jones,Monica, M.D.</DisplayName>
+        </Name>
+      </Person>
+      <IDs>
+        <Type>
+          <Text>Doctor #</Text>
+        </Type>
+        <ID>2009</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <IDs>
+        <Type>
+          <Text>NPI</Text>
+        </Type>
+        <ID>1780673160</ID>
+        <IssuedBy>
+          <ActorID>PR0001</ActorID>
+        </IssuedBy>
+        <Source>
+          <Actor>
+            <ActorID>IS0001</ActorID>
+            <ActorRole>
+              <Text>EHR System</Text>
+            </ActorRole>
+          </Actor>
+        </Source>
+      </IDs>
+      <Relation>
+        <Text>Referring Doctor</Text>
+      </Relation>
+      <Specialty>
+        <Text>Pediatric/Phys/Osteopath</Text>
+      </Specialty>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>3175 East Genesee St Ste 5</Line1>
+        <Line2>, Syracuse, NY 13224</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-251-2612</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+    <Actor>
+      <ActorObjectID>LOC_1</ActorObjectID>
+      <Organization>
+        <Name>Fairmount Office</Name>
+      </Organization>
+      <Relation>
+        <Text>Location</Text>
+      </Relation>
+      <Address>
+        <Type>
+          <Text>Mail</Text>
+        </Type>
+        <Line1>436 Hinsdale RD</Line1>
+        <Line2>Camillus, NY 13031-1648</Line2>
+      </Address>
+      <Telephone>
+        <Value>(315)-488-0996</Value>
+        <Type>
+          <Text>Work</Text>
+        </Type>
+        <Priority>1</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Telephone>
+        <Value>(315)-488-1955</Value>
+        <Type>
+          <Text>Fax</Text>
+        </Type>
+        <Priority>2</Priority>
+        <Status>
+          <Text>Active</Text>
+        </Status>
+      </Telephone>
+      <Source>
+        <Actor>
+          <ActorID>PR0001</ActorID>
+          <ActorRole>
+            <Text>Primary Medical Facility</Text>
+          </ActorRole>
+        </Actor>
+      </Source>
+    </Actor>
+  </Actors>
+</ContinuityOfCareRecord>
