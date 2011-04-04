@@ -60,8 +60,8 @@ public class QualityMeasureEvaluator {
         this.r = record;
         // Create a new result object which represent the JSON result
         pop = new PopHealthPatientRecord();
-        // Set the information about the patient
-        pop.setBirthdate(r.getPatient().getBirthdate());
+     // Set the information about the patient
+        pop.setPatient(r.getPatient());
         // Iterate through each quality measure and evaluate against it
         for (QualityMeasure q : qList) {
             evaluate(pop, q);
@@ -71,7 +71,7 @@ public class QualityMeasureEvaluator {
         try {
             // TODO set to false for production
             String jsonResult = pop.toJson(true);
-            pop = null;
+            // pop = null;
             return jsonResult;
         } catch (JsonMappingException ex) {
             Logger.getLogger(QualityMeasureEvaluator.class.getName()).log(Level.SEVERE, null, ex);
@@ -643,7 +643,7 @@ public class QualityMeasureEvaluator {
      * Utility method to compare to lists of coded values.  Returns true if any code
      * in one list matches any code in another list
      */
-    private boolean codeMatch(ArrayList<CodedValue> mCodes, ArrayList<CodedValue> cCodes) {
+    protected boolean codeMatch(ArrayList<CodedValue> mCodes, ArrayList<CodedValue> cCodes) {
         // TODO Check for perfomance improvement
         // Bad Big-O notation algorithm, but currently expecting short lists
 
@@ -662,5 +662,10 @@ public class QualityMeasureEvaluator {
         }
         // No code match found
         return false;
+    }
+    
+    // To support testing
+    protected PopHealthPatientRecord getLastPop(){
+    	return this.pop;
     }
 }

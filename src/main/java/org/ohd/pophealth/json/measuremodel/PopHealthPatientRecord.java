@@ -8,11 +8,15 @@ import java.io.IOException;
 import java.io.StringWriter;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 import org.codehaus.jackson.JsonFactory;
 import org.codehaus.jackson.JsonGenerationException;
 import org.codehaus.jackson.JsonGenerator;
 import org.codehaus.jackson.map.JsonMappingException;
 import org.ohd.pophealth.json.JsonMapper;
+import org.ohd.pophealth.json.clinicalmodel.Patient;
 
 /**
  *
@@ -20,11 +24,11 @@ import org.ohd.pophealth.json.JsonMapper;
  */
 public class PopHealthPatientRecord {
 
-    private long birthdate;
+    private Patient patient;
     private ArrayList<MeasureResult> measures;
 
-    public PopHealthPatientRecord(long birthdate) {
-        this.birthdate = birthdate;
+    public PopHealthPatientRecord(Patient patient) {
+        this.patient = patient;
         measures = new ArrayList<MeasureResult>();
     }
 
@@ -36,29 +40,37 @@ public class PopHealthPatientRecord {
         measures.add(new MeasureResult(id, map));
     }
 
-    public long getBirthdate() {
-        return birthdate;
+    public Patient getPatient() {
+        return patient;
     }
 
-    public void setBirthdate(long birthdate) {
-        this.birthdate = birthdate;
+    public void setPatient(Patient patient) {
+        this.patient = patient;
     }
 
     public ArrayList<MeasureResult> getMeasures() {
         return measures;
     }
 
-    private static class MeasureResult {
+    public static class MeasureResult {
 
-        public String id;
-        public LinkedHashMap<String, Item> map;
+        public String id = "no-id-set";
+        public LinkedHashMap<String, Item> map = new LinkedHashMap<String, Item>();
 
         public MeasureResult() {
         }
 
         public MeasureResult(String id, LinkedHashMap<String, Item> map) {
-            this.id = id;
-            this.map = map;
+            if (id == null){
+            	Logger.getLogger(this.getClass().getName()).log(Level.WARNING, "MeasureResult was passed a null value for id");
+            }else{
+            	this.id = id;
+            }
+            if (map == null){
+            	Logger.getLogger(this.getClass().getName()).log(Level.WARNING, "MeasureResult was passed a null value for map");
+            }else{
+            	this.map = map;
+            }
         }
     }
 
@@ -71,23 +83,30 @@ public class PopHealthPatientRecord {
             jg.useDefaultPrettyPrinter();
         }
         jg.writeStartObject();
-            jg.writeNumberField("birthdate", birthdate);
+            jg.writeStringField("first", patient.getFirst());
+            jg.writeStringField("last", patient.getLast());
+            jg.writeStringField("gender", patient.getGender());
+            jg.writeNumberField("birthdate", patient.getBirthdate());
             jg.writeObjectFieldStart("measures");
-                for (MeasureResult mr : this.measures){
-                    jg.writeObjectFieldStart(mr.id);
-                        for(String k : mr.map.keySet()){
-                            jg.writeFieldName(k);
-                            jg.writeRawValue(mr.map.get(k).toJSON(prettyPrint));
-//                            jg.writeStartArray();
-//                                for(String s : mr.map.get(k)){
-//                                    // TODO this needs to be fixed when items fixed in MeasureReader class
-//                                    jg.writeRawValue(s);
-//                                }
-//                            jg.writeEndArray();
-                        }
-                    jg.writeEndObject();
+            for (MeasureResult mr : this.measures){
+                jg.writeObjectFieldStart(mr.id);
+                if (!mr.map.keySet().isEmpty()){
+                    for(String k : mr.map.keySet()){
+                    	if (k != null){
+                        jg.writeFieldName(k);
+                        jg.writeRawValue(mr.map.get(k).toJSON(prettyPrint));
+//                        jg.writeStartArray();
+//                            for(String s : mr.map.get(k)){
+//                                // TODO this needs to be fixed when items fixed in MeasureReader class
+//                                jg.writeRawValue(s);
+//                            }
+//                        jg.writeEndArray();
+                    	}
+                    }
                 }
-           jg.writeEndObject();
+                jg.writeEndObject();
+            }
+       jg.writeEndObject();
         jg.writeEndObject();
         jg.flush();
         jg.close();

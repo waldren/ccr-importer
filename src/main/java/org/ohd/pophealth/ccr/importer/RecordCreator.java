@@ -12,6 +12,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.astm.ccr.ActorReferenceType;
 import org.astm.ccr.ActorType;
+import org.astm.ccr.ActorType.Person.Name;
 import org.astm.ccr.Agent;
 import org.astm.ccr.AlertType;
 import org.astm.ccr.CCRCodedDataObjectType;
@@ -156,6 +157,32 @@ public class RecordCreator {
         String dob = dt.getExactDateTime();
         p.setBirthdate(convertISO8601toSecfromEpoch(dob));
 
+        // Set Name
+        if (pt.getPerson() != null && pt.getPerson().getName() != null){
+            Name n = pt.getPerson().getName();
+            // Try Current Name first
+            if (n.getCurrentName() != null){
+                if (!n.getCurrentName().getFamily().isEmpty()){
+                    // Just grab the first family name
+                    // TODO handle multiple last names
+                    p.setLast(n.getCurrentName().getFamily().get(0));
+                }
+                if (!n.getCurrentName().getGiven().isEmpty()){
+                    p.setFirst(n.getCurrentName().getGiven().get(0));
+                }
+            // Second try birth name
+            }else if (n.getBirthName() != null){
+                if (!n.getBirthName().getFamily().isEmpty()){
+                    // Just grab the first family name
+                    // TODO handle multiple last names
+                    p.setLast(n.getBirthName().getFamily().get(0));
+                }
+                if (!n.getBirthName().getGiven().isEmpty()){
+                    p.setFirst(n.getBirthName().getGiven().get(0));
+                }
+            }
+            // TODO Add code to finally check for Additional Names
+        }
         // Set Gender
         if (pt.getPerson().getGender() != null) {
             if (isConceptMatch(v.getTermSet("gender_male"), pt.getPerson().getGender())) {

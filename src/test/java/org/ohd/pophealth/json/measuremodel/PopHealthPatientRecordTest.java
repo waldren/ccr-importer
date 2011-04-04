@@ -13,6 +13,8 @@ import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
+import org.ohd.pophealth.json.clinicalmodel.Patient;
+
 import static org.junit.Assert.*;
 
 /**
@@ -49,7 +51,9 @@ public class PopHealthPatientRecordTest {
         System.out.println("toJson");
         boolean prettyPrint = true;
         PopHealthPatientRecord instance = new PopHealthPatientRecord();
-        instance.setBirthdate(182908800);
+        Patient pt = new Patient();
+        pt.setBirthdate(182908800);
+        instance.setPatient(pt);
         LinkedHashMap<String, Item> m = new LinkedHashMap<String, Item>();
         long[] l1 = {1255910400L};
         Item a = new DateItem(l1);
